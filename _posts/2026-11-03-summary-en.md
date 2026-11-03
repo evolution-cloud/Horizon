@@ -5,281 +5,242 @@ date: 2026-11-03
 lang: en
 ---
 
-> From 41 items, 18 important content pieces were selected
+> From 39 items, 13 important content pieces were selected
 
 ---
 
 **Technology News**
-1. [vLLM v0.33.0rc3 Released with New Models and CUDA 13.0 Transition](#item-tech-news-1) ⭐️ 8.0/10
-2. [Astra Edits Neural Weights to Improve Qwen Math 5x](#item-tech-news-2) ⭐️ 8.0/10
-3. [Ubuntu delays patch for critical Linux kernel RCE vulnerability](#item-tech-news-3) ⭐️ 8.0/10
-4. [Show HN: Subvocal – Talk to your computer without making noise](#item-tech-news-4) ⭐️ 8.0/10
-5. [LongCat-2.5: 1.6 Trillion Parameter Native Multimodal Model Released](#item-tech-news-5) ⭐️ 8.0/10
-6. [400+ AI Apps Hide Pornographic Deepfake Features](#item-tech-news-6) ⭐️ 8.0/10
-7. [SGLang v0.5.23 Adds 9 New Models with Performance Improvements](#item-tech-news-7) ⭐️ 7.0/10
-8. [Updated Linux System Call Website Adds Architectures and API](#item-tech-news-8) ⭐️ 7.0/10
-9. [WTF Ubuntu?](#item-tech-news-9) ⭐️ 7.0/10
-10. [LLM 0.37 Release Adds New Models and Configuration Improvements](#item-tech-news-10) ⭐️ 7.0/10
-11. [The U.S. Census Bureau and “Super Intelligence”](#item-tech-news-11) ⭐️ 7.0/10
-12. [GDPx Benchmark Measures AI Capabilities in High-Value Domains](#item-tech-news-12) ⭐️ 7.0/10
-13. [ChatGPT Sharing Link Vulnerability Patched](#item-tech-news-13) ⭐️ 7.0/10
-14. [Tesla China App Shows FSD Statistics Page](#item-tech-news-14) ⭐️ 7.0/10
+1. [vLLM v0.33.0rc3 Released with Major Model Support Expansion](#item-tech-news-1) ⭐️ 8.0/10
+2. [Astra Technique Improves Qwen Model Math Capabilities 5x](#item-tech-news-2) ⭐️ 8.0/10
+3. [Subvocal Smart Glasses Enable Silent Speech-to-Text](#item-tech-news-3) ⭐️ 8.0/10
+4. [Cloudflare Halves DNS Build Delay, Cuts Memory Use](#item-tech-news-4) ⭐️ 8.0/10
+5. [Linux Kernel IPv4 TCP Use-After-Free Vulnerability \(CVE-2026-98432\)](#item-tech-news-5) ⭐️ 8.0/10
+6. [Ubuntu delays critical kernel RCE patch for nearly 3 weeks](#item-tech-news-6) ⭐️ 7.0/10
+7. [ChatGPT Share Link Vulnerability Allowed Account Takeover](#item-tech-news-7) ⭐️ 7.0/10
+8. [Over 400 AI Apps Found Hiding Explicit Deepfake Features](#item-tech-news-8) ⭐️ 7.0/10
+9. [Abu Dhabi Partners with OpenAI for Machine-Readable Government](#item-tech-news-9) ⭐️ 7.0/10
+10. [xAI Launches Data Bot to Automate Data Science Tasks](#item-tech-news-10) ⭐️ 7.0/10
 
 **Technology Blog**
 1. [LLMs Not Superhuman at Neural Network Weight Manipulation](#item-tech-blog-1) ⭐️ 8.0/10
-2. [Audience Capture](#item-tech-blog-2) ⭐️ 7.0/10
+2. [Audience Capture](#item-tech-blog-2) ⭐️ 8.0/10
 
 **Financial News**
-1. [Anthropic Reports Massive Revenue Growth Despite Huge Losses](#item-finance-news-1) ⭐️ 7.0/10
-2. [UK Proposes Extending Migrant Settlement Period to 10 Years](#item-finance-news-2) ⭐️ 7.0/10
+1. [Anthropic Reports Explosive Revenue Growth but Massive Losses in IPO Filing](#item-finance-news-1) ⭐️ 7.0/10
 
 ---
 
 ## Technology News
 
 <a id="item-tech-news-1"></a>
-### [vLLM v0.33.0rc3 Released with New Models and CUDA 13.0 Transition](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) ⭐️ 8.0/10
+### [vLLM v0.33.0rc3 Released with Major Model Support Expansion](https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3) ⭐️ 8.0/10
 
-vLLM v0.33.0rc3 is a major release candidate update featuring support for new large models including Reflection Beam-1.0, Yandex AliceAI-Foundation-80B-A3B, and Recursive Flint. The library has been upgraded to PyTorch 2.14.0 with torchvision 0.29.0 and Triton 3.8.0, and now requires CUDA 13.0 only, dropping support for CUDA 12.9. The release includes significant performance improvements in speculative decoding, NVIDIA decode optimization, and AMD ROCm support, along with breaking changes including the removal of Medusa and MLP speculator.
+vLLM has released v0.33.0rc3, a major update featuring 927 commits from 389 contributors, including support for 11 new large models such as Reflection Beam-1.0 \(501B MoE\) and Recursive Flint \(40B MoE\). The release upgrades to PyTorch 2.14.0 with torchvision 0.29.0 and Triton 3.8.0, drops CUDA 12.9 support in favor of CUDA 13.0 only, and introduces a new AWS EFA image for multi-node serving on EFA-enabled EC2 instances. Additionally, the release includes significant improvements to speculative decoding, faster NVIDIA decode capabilities, enhanced AMD ROCm support, and new API endpoints including an OpenAI-compatible \`/v1/decisions\` endpoint.
 
 github · khluu · Nov 2, 10:10
 
-**「Background」** vLLM is an open-source library designed for high-performance inference of large language models. This release candidate version 0.33.0 represents a significant update with substantial development activity, featuring 927 commits from 389 contributors, support for numerous new large models, major dependency upgrades including PyTorch 2.14, and important infrastructure changes such as transitioning to CUDA 13.0 only support.
+**「Background」** vLLM is an open-source library designed for efficient large language model \(LLM\) inference, addressing the computational challenges of running massive AI models. The library implements techniques like PagedAttention and continuous batching to optimize GPU memory usage and throughput, making it a critical tool for organizations deploying LLMs in production environments. This release candidate version 0.33.0 represents a significant evolution of the platform with substantial model support expansion and infrastructure upgrades.
 
-**「CUDA Version Transition Required」** Organizations and developers using vLLM must upgrade from CUDA 12.9 to 13.0 as v0.33.0 no longer provides CUDA 12.9 wheels or images. This transition will require adjustments to existing infrastructure, particularly for production deployments that have been optimized for CUDA 12.9.
+**「Impact on AI/ML Infrastructure」** This release will impact AI/ML engineers and system administrators working with LLM inference systems by providing better performance for large models, improved support for newer hardware architectures, and enhanced deployment options through container images and API endpoints.
 
-**Tags**: `#llm-inference`, `#pytorch-upgrade`, `#cuda-support`, `#model-support`, `#high-performance-computing`
+**Tags**: `#llm-inference`, `#pytorch`, `#cuda`, `#open-source`, `#model-support`
 
 ---
 
 <a id="item-tech-news-2"></a>
-### [Astra Edits Neural Weights to Improve Qwen Math 5x](https://rikiyat.github.io/blog/weight-space-programming/) ⭐️ 8.0/10
+### [Astra Technique Improves Qwen Model Math Capabilities 5x](https://rikiyat.github.io/blog/weight-space-programming/) ⭐️ 8.0/10
 
-Astra demonstrates the ability to directly edit neural network weights to significantly improve model performance, achieving 5x better math skills in Qwen. The technique, called weight-space programming, allows Astra to identify and modify specific weight directions that cause common failures in small reasoning models. Astra traced a looping behavior in Qwen to specific directions written by the MLPs of layers 15 and 19, then subtracted those directions from 64 output columns in each layer \(131,072 weights total\). This represents a shipped capability rather than just an announced plan, with concrete performance improvements demonstrated on actual model weights.
+Astra is a new technique that enables direct reading and writing of neural network weights to improve model performance, demonstrating a 5x improvement in math capabilities for the Qwen model. The method allows for precise manipulation of neural network parameters without requiring retraining, enabling targeted improvements to specific capabilities. This approach represents an advancement in weight-space programming that could lead to more efficient model optimization techniques.
 
 hackernews · dbreunig · Nov 2, 18:21 · [Discussion](https://news.ycombinator.com/item?id=50341174)
 
-**「Weight-Space Programming」** Weight-Space Programming refers to the ability of AI models to directly read and modify neural network weights without traditional training loops or gradient-based optimization. This approach allows models to identify specific issues in their architecture and make targeted improvements. In the case of Qwen, a large language model that struggled with mathematical reasoning and tended to loop \(repeating text without reaching answers\), Astra was able to pinpoint the exact weights causing this problem and modify just 0.016% of them to achieve a 5x improvement in math skills.
+**「Background」** Neural networks rely on weights and biases to determine feature importance and adjust outputs, with weights controlling how input data is transformed through the network. Previous methods for manipulating neural network weights existed, such as Condition-Aware Neural Networks that controlled image generation by dynamically adjusting weights, but these were limited in scope. Weight-space programming represents a significant advancement, enabling an LLM like GPT-6 Astra to reason about what each part of a neural network computes and directly edit weights without retraining the entire model.
 
-**「Practical Implications」** This direct weight editing capability could fundamentally change how AI models are optimized and debugged, potentially allowing developers to surgically fix specific model failures without full retraining. The approach may enable more efficient model maintenance and targeted improvements to specialized capabilities like mathematical reasoning.
+**「Impact」** Developers and researchers can now improve specific model capabilities like mathematical reasoning without full retraining, potentially reducing computational costs and time-to-improvement for AI systems.
 
-**「Community Reactions」** The community reaction ranges from shock to recognition of this as part of a broader pattern where LLMs demonstrate rapid comprehension of complex systems. Some commenters suggest this might be an emergent capability from training on neural weights data, potentially related to recursive self-improvement attempts, while others note it aligns with LLMs&\#x27; demonstrated ability to quickly understand and explain complex systems like legacy codebases.
+**「Community Discussion」** The community reaction is mixed, with some users expressing excitement about the capabilities \(&\#x27;This is insane. Astra can, without tooling, determine what games small networks are trained on&\#x27;\), while others caution that the blog may overstate the results and that weight manipulation techniques have existed for some time.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://rikiyat.github.io/blog/weight-space-programming/">Sparks of Weight - Space Programming : LLMs can natively read...</a></li>
-<li><a href="https://news.ycombinator.com/item?id=50341174">Astra can read and write weights to improve Qwen | Hacker News</a></li>
+<li><a href="https://elsolitario.org/en/2026/11/02/mit-csail-astra-edits-0-016-of-qwen3-weights/">Weight-Space Programming: How Astra Edits Weights</a></li>
+<li><a href="http://ai-tldr.dev/releases/mit-csail-weight-space-programming/">Weight-Space Programming — GPT-6 Astra reads and… | AI/TLDR</a></li>
+<li><a href="https://arxiv.org/html/2404.01143">Condition-Aware Neural Network for Controlled Image Generation</a></li>
+<li><a href="https://www.geeksforgeeks.org/deep-learning/the-role-of-weights-and-bias-in-neural-networks/">Weights and Bias in Neural Networks - GeeksforGeeks</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#neural-networks`, `#ai-optimization`, `#llm`, `#model-editing`, `#weight-space-programming`
+**Tags**: `#neural-networks`, `#weight-space-programming`, `#ai-optimization`, `#llm-improvement`, `#machine-learning`
 
 ---
 
 <a id="item-tech-news-3"></a>
-### [Ubuntu delays patch for critical Linux kernel RCE vulnerability](https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432) ⭐️ 8.0/10
+### [Subvocal Smart Glasses Enable Silent Speech-to-Text](https://news.ycombinator.com/item?id=50340088) ⭐️ 8.0/10
 
-Ubuntu has not yet released a patch for the critical CVE-2026-98432 Linux kernel remote code execution vulnerability affecting its LTS systems for nearly three weeks, leaving systems vulnerable to potential exploitation. The vulnerability was first reported on November 2, 2026, and affects Ubuntu&\#x27;s Long Term Support kernels, which are widely used in production environments. Despite the severity of the RCE vulnerability, Ubuntu has not provided an official patch or timeline for resolution, forcing system administrators to either implement temporary workarounds or remain exposed to the security risk.
+Subvocal has developed smart glasses that use RF technology to decode silently mouthed words into text at the speed of speech. The glasses emit radio waves that pass through the face and are modulated by silent mouthing, with foundation models trained on this data to decode the perturbations to text. The company has built a working prototype and is accepting preorders for the first batch of 500 units, with shipping planned for Q1 2027.
 
-hackernews · majorchord · Nov 2, 18:39 · [Discussion](https://news.ycombinator.com/item?id=50341462)
+hackernews · aarushyadav · Nov 2, 17:16
 
-**「Background」** CVE-2026-98432 is a critical use-after-free vulnerability in the Linux kernel&\#x27;s IPv4 networking subsystem that allows remote, unauthenticated attackers to execute arbitrary code by exploiting a race condition during TCP connection request processing. The vulnerability affects kernel versions 4.4 and later and has been resolved in the upstream kernel by ensuring proper freeing of inet\_opt and ireq\_opt after an RCU grace period in the tcp\_v4\_syn\_recv\_sock\(\) function. Ubuntu has acknowledged the vulnerability on their security page but has not yet released a patch for their LTS systems despite the critical nature of the flaw.
+**「Background」** Subvocal&\#x27;s technology builds upon earlier research into silent speech interfaces, particularly MIT Media Lab&\#x27;s AlterEgo project. AlterEgo, developed by researchers including Arnav Kapur \(no relation to Subvocal&\#x27;s Arnav\), is a wearable device that translates muscular and neural activity into text without vocalization, primarily designed to help people with speech disorders like ALS and MS. While AlterEgo detects signals sent to the mouth and vocal cords during silent speech, Subvocal took a different approach using RF technology to decode the subtle movements of the tongue, lips, and soft palate when words are silently mouthed.
 
-**「Administrative Challenges」** System administrators relying on Ubuntu LTS systems face increased security risks and operational challenges, with some users already considering switching distributions due to the delayed response, as noted by community members who expressed shaken faith in Ubuntu&\#x27;s security practices.
+**「Impact」** The Subvocal smart glasses provide a practical solution for silent communication that could significantly benefit individuals who need to communicate without making noise \(e.g., in libraries, offices, or public spaces\) and those with speech impairments. The technology enables hands-free interaction with computers, which could be particularly valuable in professional settings where voice commands might be disruptive or in environments where privacy is important.
 
-**「Community Reactions」** The community discussion includes both technical workarounds, such as using iptables or nftables to block the vulnerability before kernel patching, and concerns about Ubuntu&\#x27;s delayed response, with users questioning the official reasons for the delay and some expressing loss of confidence in the distribution&\#x27;s security practices.
+**「Community Feedback」** Users have expressed excitement about the technology&\#x27;s potential for accessibility and hands-free computing, while also requesting more detailed technical information on the website. Some users with prescription glasses have requested compatibility options that attach to existing frames, and others questioned whether similar functionality could be achieved using a standard webcam instead of dedicated hardware.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://access.redhat.com/security/vulnerabilities/RHSB-2026-016">RHSB-2026-016 Use-after-free - kernel IPv4 (CVE-2026-98432 ...</a></li>
-<li><a href="https://aws.amazon.com/security/security-bulletins/2026-160-aws/">CVE-2026-98432 - Linux kernel IPv4 TCP use-after-free ...</a></li>
-<li><a href="https://ubuntu.com/security/CVE-2026-98432">CVE-2026-98432 | Ubuntu</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AlterEgo">AlterEgo - Wikipedia</a></li>
+<li><a href="https://www.media.mit.edu/projects/alterego/overview/">Overview ‹ AlterEgo — MIT Media Lab</a></li>
+<li><a href="https://www.media.mit.edu/projects/alterego/frequently-asked-questions/">Frequently Asked Questions ‹ AlterEgo — MIT Media Lab</a></li>
+<li><a href="https://www.futurebeeai.com/knowledge-hub/silent-speech-interface-technology">Silent Speech Interface Technology in Communication</a></li>
+<li><a href="https://www.nature.com/articles/s44460-025-00010-2">Sensing technologies for silent speech interfaces - Nature</a></li>
+<li><a href="https://www.emergentmind.com/topics/silent-speech-interfaces-ssi">Silent Speech Interfaces: Methods &amp; Challenges</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#linux-kernel`, `#ubuntu`, `#cve`, `#system-administration`
+**Tags**: `#human-computer-interaction`, `#wearable-technology`, `#accessibility`, `#signal-processing`, `#ai`
 
 ---
 
 <a id="item-tech-news-4"></a>
-### [Show HN: Subvocal – Talk to your computer without making noise](https://news.ycombinator.com/item?id=50340088) ⭐️ 8.0/10
+### [Cloudflare Halves DNS Build Delay, Cuts Memory Use](https://blog.cloudflare.com/dns-targeted-zone-builds/) ⭐️ 8.0/10
 
-YC-backed startup Subvocal has developed smart glasses that use RF technology to decode silently mouthed words into text at the speed of speech.
+Cloudflare reduced DNS build delays by 50% and decreased memory usage by 85% through targeted zone builds. This optimization affects their DNS infrastructure which manages millions of domains globally. The improvements were achieved through implementing more efficient build processes. These changes are now live across Cloudflare&\#x27;s network.
 
-hackernews · aarushyadav · Nov 2, 17:16
+hackernews · wondersky · Nov 2, 14:47 · [Discussion](https://news.ycombinator.com/item?id=50337558)
 
-**Tags**: `#human-computer interaction`, `#wearable technology`, `#input devices`, `#accessibility`, `#RF technology`
+**「DNS Zone Build Optimization」** DNS zone builds are the process of updating DNS records across Cloudflare&\#x27;s global network when changes are made to domain configurations. These builds have traditionally been resource-intensive operations that can cause delays in propagating changes and consume significant server memory. Cloudflare&\#x27;s optimization represents a shift from rebuilding entire zones to targeted updates, which reduces computational overhead while maintaining the integrity and speed of DNS resolution across their network managing millions of domains.
+
+**「Community Reactions」** Commenters questioned whether 700 DNS changes per second is low given Cloudflare&\#x27;s massive scale, while others expressed curiosity about the potential bugs that might arise from such a significant architectural change. There was also discussion about the ROI of memory optimization efforts.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.cloudflare.com/products/dns/">Cloudflare DNS - World&#x27;s Fastest DNS</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#dns`, `#performance`, `#optimization`, `#infrastructure`, `#cloudflare`
 
 ---
 
 <a id="item-tech-news-5"></a>
-### [LongCat-2.5: 1.6 Trillion Parameter Native Multimodal Model Released](https://longcat.ai/blog/longcat-2.5/) ⭐️ 8.0/10
+### [Linux Kernel IPv4 TCP Use-After-Free Vulnerability \(CVE-2026-98432\)](https://telegram.me/zaihuapd/44866) ⭐️ 8.0/10
 
-LongCat-2.5 introduces a 1.6 trillion parameter native multimodal model designed for long-range agent tasks, building upon LongCat-2.0 with enhanced visual understanding and agentic coding capabilities. The model encodes visual signals into multi-level discrete tokens for unified processing with text, enabling tasks like visual programming. Currently available for trial on the official website and via API, with GitHub and HuggingFace versions not yet open.
+A critical use-after-free vulnerability \(CVE-2026-98432\) has been discovered in the Linux kernel&\#x27;s IPv4 TCP implementation that allows remote code execution without authentication. Anthropic has published a working RCE exploit for MPTCP listening ports, and Go services are particularly vulnerable since version 1.24 due to MPTCP being enabled by default on Linux listen sockets. System administrators should update their kernels immediately to protect against potential attacks.
 
-telegram · zaihuapd · Nov 2, 03:08
+telegram · zaihuapd · Nov 3, 02:37
 
-**「Background」** LongCat-2.5 represents an evolution in multimodal AI systems, building upon its predecessor LongCat-2.0. Multimodal models integrate different types of data inputs, such as visual and textual information, to enable more comprehensive understanding and processing capabilities. The 1.6 trillion parameter scale of LongCat-2.5 positions it among the largest AI models currently available, with approximately 480 billion parameters activated per token during processing. Its approach of encoding visual signals into discrete tokens for unified text processing represents a technical advancement in how AI systems can handle diverse data types simultaneously.
+**「Background」** A use-after-free vulnerability exists in the Linux kernel&\#x27;s IPv4 TCP handshake processing, affecting kernel versions 4.4 and later. The vulnerability occurs in the tcp\_v4\_syn\_recv\_sock\(\) function where inet\_opt and ireq\_opt are transferred to a child socket without proper copying, creating a race condition during TCP connection request processing. This allows remote, unauthenticated attackers to potentially execute arbitrary code by sending specially crafted IPv4 TCP packets with IP options to affected listeners.
 
-**「Impact」** The release provides developers with a powerful multimodal tool that could advance AI applications requiring both visual and text processing, particularly in programming assistance and visual understanding tasks, though access is currently limited to the official platform.
+**「Potential Consequences」** Server administrators who fail to update their kernels risk remote code execution attacks that could compromise entire server infrastructure, with Go services being especially vulnerable due to default MPTCP configuration.
 
-**Tags**: `#large-language-models`, `#multimodal-ai`, `#software-engineering`, `#ai-agents`, `#parameter-scale`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://aws.amazon.com/security/security-bulletins/2026-160-aws/">CVE-2026-98432 - Linux kernel IPv4 TCP use-after-free ...</a></li>
+<li><a href="https://access.redhat.com/security/vulnerabilities/RHSB-2026-016">RHSB-2026-016 Use-after-free - kernel IPv4 (CVE-2026-98432 ...</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/cve-2026-98432">NVD-CVE-2026-98432</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#security`, `#linux`, `#vulnerability`, `#tcp`, `#server-administration`
 
 ---
 
 <a id="item-tech-news-6"></a>
-### [400+ AI Apps Hide Pornographic Deepfake Features](https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/) ⭐️ 8.0/10
+### [Ubuntu delays critical kernel RCE patch for nearly 3 weeks](https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432) ⭐️ 7.0/10
 
-WIRED investigation revealed a network of 400+ AI applications and websites that conceal pornographic deepfake functionality behind legitimate services like pet portrait generation and language learning. These apps, which had collectively been downloaded over 350,000 times from Google Play alone, allowed users to upload photos of others to create explicit images and videos. Apple removed 19 apps after WIRED provided evidence that developers were changing remote content after approval, while Google had already removed most of the apps before being contacted.
+Ubuntu has failed to release a patch for the critical Linux kernel RCE vulnerability CVE-2026-98432 for nearly three weeks, leaving affected systems exposed to potential remote exploitation. The vulnerability affects Ubuntu LTS kernels, which are widely deployed in enterprise and server environments. No official explanation or timeline for the patch has been provided by Ubuntu, despite the severity of the issue.
 
-telegram · zaihuapd · Nov 2, 12:45
+hackernews · majorchord · Nov 2, 18:39 · [Discussion](https://news.ycombinator.com/item?id=50341462)
 
-**「Background」** Deepfake technology uses artificial intelligence to create realistic but fake images, videos, or audio that can depict people saying or doing things they never did. This investigation highlights how such technology is being misused to create non-consensual explicit content, raising serious ethical concerns about the deployment of AI applications without proper safeguards. The widespread availability of these deceptive apps on major app stores demonstrates significant gaps in content moderation and vetting processes for AI-powered tools.
+**「Background」** CVE-2026-98432 is a critical Linux kernel vulnerability related to improper handling of inet\_opt and ireq\_opt in the tcp\_v4\_syn\_recv\_sock\(\) function, which was resolved in the upstream Linux kernel on October 15, 2026. Despite this upstream fix being available for nearly three weeks, Ubuntu has not yet released a patch for this vulnerability in their Long Term Support \(LTS\) kernels, leaving users exposed to potential remote code execution attacks.
 
-**「Regulatory and Platform Response」** The discovery of 400+ AI apps hiding pornographic deepfake features has prompted tech platforms to remove offending applications, with Apple removing 19 apps and Google removing most others before being contacted, while Meta blocked 209 related apps from advertising. This incident highlights critical gaps in app store vetting processes and underscores the urgent need for stronger regulatory frameworks to address the growing problem of non-consensual intimate deepfakes, which constitute 96% of publicly available deepfake content according to research.
+**「Impact」** Organizations running Ubuntu LTS systems remain vulnerable to potential remote code execution attacks, with no official mitigation guidance from Ubuntu, forcing administrators to either wait for the patch or implement unofficial workarounds.
+
+**「Community Discussion」** Users have noted that iptables or nftables can potentially mitigate the vulnerability through specific rules, though Ubuntu has not provided official mitigation guidance. Some commenters expressed concern about the lack of transparency regarding the delay, while others questioned whether consumer routers running Linux are similarly vulnerable and unpatched.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.igap.in/wp-content/uploads/2025/10/Global-Legal-Responses-to-Deepfakes-A-Regulatory-Primer.pdf">Global Legal Responses to Deepfakes: A Regulatory Primer</a></li>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S0267364922000632">Deepfakes: regulatory challenges for the synthetic society</a></li>
+<li><a href="https://brandefense.io/security-news/cve-2026-98432-ubuntu-kernel-status/">CVE-2026-98432 Ubuntu Kernel Status - Brandefense</a></li>
+<li><a href="https://ubuntu.com/security/CVE-2026-98432">CVE-2026-98432 | Ubuntu</a></li>
+<li><a href="https://www.mydatapath.com/news/cve-2026-98432-linux-patch-verification/">CVE-2026-98432: Verify Your Linux Patch | Datapath</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI ethics`, `#deepfake`, `#app security`, `#privacy`, `#tech regulation`
+**Tags**: `#security`, `#linux`, `#ubuntu`, `#kernel`, `#vulnerability`
 
 ---
 
 <a id="item-tech-news-7"></a>
-### [SGLang v0.5.23 Adds 9 New Models with Performance Improvements](https://github.com/sgl-project/sglang/releases/tag/v0.5.23) ⭐️ 7.0/10
+### [ChatGPT Share Link Vulnerability Allowed Account Takeover](https://www.parameter.ai/labs/we-found-a-gap-at-openai) ⭐️ 7.0/10
 
-SGLang v0.5.23 introduces support for 9 new models including Muse Spark Open, Beam-1.0, MiniMax-M3.1-Flash, MiniCPM-V 4.7, Kev, Cosmos3-Nano-Sim, FastH3 Omni, FLUX.3 Image Klein, HY-Nomas, and MOSS-Image across LLM/VLM and diffusion categories. The release brings significant performance improvements for DeepSeek-V4.1 with up to 1.5x more prefill throughput under load and 28% lower first-token latency on 32K to 64K prompts. New features include a low-latency mode with NVIDIA megakernel and AMD monokernel plugins offering up to 44% faster single-user decode, Paged Experts for running MoE models larger than GPU memory, and support for serving LoRA adapters on quantized MoE models.
+A critical security vulnerability in ChatGPT&\#x27;s share link feature allowed attackers to execute arbitrary code and steal private data from users&\#x27; accounts. The vulnerability, classified as P1 \(high severity\) by OpenAI, exploited a message processing defect between preview functionality and chart components, enabling attackers to read private conversations and send data to external servers when users clicked malicious links. OpenAI fixed the vulnerability on October 26, 2026, and paid a $5,000 bounty to the Parameter research team who discovered it.
 
-github · Fridge003 · Nov 2, 22:14
+telegram · zaihuapd · Nov 2, 10:24
 
-**「Background」** SGLang is an open-source model serving framework designed for efficient deployment of large language models, vision-language models, and diffusion models. The framework specializes in optimizing performance through advanced techniques like speculative decoding, CUDA graphs, and specialized kernel implementations for different hardware platforms including NVIDIA GPUs, AMD GPUs, Intel processors, and now Google TPUs.
+**「Background」** Share link features in AI platforms like ChatGPT allow users to share conversations with others, typically generating a unique URL that can be accessed by anyone with the link. These features often include preview functionality to display conversation content before full access.
 
-**「Impact」** The expanded model support and performance improvements will benefit developers and organizations deploying large language models and diffusion models, particularly those working with memory-intensive MoE models who can now leverage Paged Experts to run models larger than GPU memory with up to 30x faster performance than CPU offload.
+**「Impact」** Users who clicked malicious ChatGPT share links risked complete account takeover, with attackers potentially accessing all their private conversations, personal data, and even using their accounts to generate additional malicious content or spread the vulnerability to others.
 
-**Tags**: `#model-serving`, `#llm`, `#diffusion-models`, `#release`, `#sglang`
+**Tags**: `#security`, `#ai`, `#vulnerability`, `#chatgpt`, `#account-security`
 
 ---
 
 <a id="item-tech-news-8"></a>
-### [Updated Linux System Call Website Adds Architectures and API](https://syscall.sh/) ⭐️ 7.0/10
+### [Over 400 AI Apps Found Hiding Explicit Deepfake Features](https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/) ⭐️ 7.0/10
 
-The author has updated their Linux System Call website and API, which was first released in 2020. The update includes expanded architecture support, a kernel selector, enhanced syscall descriptions, and improved mobile device compatibility. The API is now available at https://api.syscall.sh, and the author also mentioned plans to release a CLI tool that uses an embedded dataset.
+WIRED investigation revealed a network of over 400 AI applications and websites disguised as normal tools like pet portrait generators and language learning apps that secretly enabled users to create non-consensual explicit deepfake content. These applications loaded explicit interfaces under specific conditions, allowing users to upload photos of others to generate explicit images or videos; 27 apps remained on Google Play in September with over 350,000 total downloads, many marked as suitable for all ages. Apple removed 19 apps after WIRED provided information, while Google had already removed most before being contacted, and Meta blocked 209 related apps from running ads.
 
-hackernews · guitmz · Nov 2, 09:29 · [Discussion](https://news.ycombinator.com/item?id=50334704)
+telegram · zaihuapd · Nov 2, 12:45
 
-**「Background」** System calls form the fundamental interface between user space applications and the Linux kernel, allowing programs to request services from the operating system. They represent the mechanism through which applications access hardware resources and kernel functions, typically implemented through specific CPU instructions and register manipulation. The syscall.sh website provides a reference for these low-level interfaces, which are essential for systems programming but vary across different processor architectures.
+**「Deepfake Regulatory Context」** Non-consensual intimate deepfakes \(NCIDs\) have become a critical global issue, recognized as both an ethical and regulatory challenge by policymakers worldwide. As of 2026, deepfakes are illegal in most U.S. states, with federal legislation like the TAKE IT DOWN Act and protections against non-consensual imagery established across 47 states, reflecting growing legal frameworks to address this form of tech-enabled sexual abuse.
 
-**「Impact」** This updated resource provides developers with more comprehensive and accessible information about Linux system calls across different architectures, which can help in debugging, development, and understanding low-level Linux functionality.
-
-**「Community Discussion」** The community discussed architecture-specific syscall implementations, with bkallus noting that on x86\_64 and x32, the syscall number goes in eax rather than rax, while wg0 questioned why syscalls vary per architecture if the Linux API is supposed to be the same.
+**「Impact」** The discovery highlights significant vulnerabilities in app store vetting processes and raises concerns about the misuse of AI technology for non-consensual content creation, potentially affecting millions of users whose images could be exploited without their knowledge or consent.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.engineersgarage.com/kernel-programming/">Kernel Programming</a></li>
-<li><a href="https://www.linkedin.com/posts/aymanalheraki_mastering-linux-system-calls-in-x86-64-assembly-activity-7474002357434036224-ufjw">Mastering Linux System Calls with x86-64 Assembly and... | LinkedIn</a></li>
+<li><a href="https://stackcyber.com/posts/ai-deepfake-laws">Deepfake Legislation Tracker: Federal, State Laws</a></li>
+<li><a href="https://rainn.org/recommendations-for-legislators/ncii-deepfakes/">Tech-Enabled Sexual Abuse Laws: Fight Non-Consensual AI ...</a></li>
+<li><a href="https://www.protocolpolicylab.org/post/the-international-regulatory-landscape-of-non-consensual-intimate-deepfakes">The International Regulatory Landscape of Non-consensual ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#linux`, `#system-calls`, `#api`, `#developer-tools`, `#software-engineering`
+**Tags**: `#AI ethics`, `#App security`, `#Content moderation`, `#Non-consensual deepfakes`, `#Technology governance`
 
 ---
 
 <a id="item-tech-news-9"></a>
-### [WTF Ubuntu?](https://chalmovsky.com/posts/wtf-ubuntu) ⭐️ 7.0/10
+### [Abu Dhabi Partners with OpenAI for Machine-Readable Government](https://thenextweb.com/news/openai-abu-dhabi-deals-machine-readable-government-mubadala) ⭐️ 7.0/10
 
-Community discussion about Ubuntu&\#x27;s handling of a security vulnerability with debate about its actual severity and appropriate priority level.
+Abu Dhabi has signed four agreements with OpenAI to implement a &\#x27;machine-readable government&\#x27; system that converts policies and regulations into AI-readable formats to assist officials in verifying license and certificate applications, with a pilot already running in food import processing. The partnership also includes Mubadala collaborating with OpenAI and Inception42 \(G42&\#x27;s subsidiary\) for investment analysis, while Inception42 separately signed a five-year agreement to provide AI models to UAE government entities, businesses, and schools. ADNOC has become the first energy company to utilize OpenAI&\#x27;s Frontier platform as part of these technology collaborations. Officials will retain final decision-making authority in all AI-assisted processes.
 
-hackernews · chalmovsky · Nov 2, 14:52 · [Discussion](https://news.ycombinator.com/item?id=50337608)
+telegram · zaihuapd · Nov 2, 15:55
 
-**Tags**: `#security`, `#ubuntu`, `#linux`, `#cve`, `#open-source`
+**「Background」** The &\#x27;machine-readable government&\#x27; concept refers to converting traditional policy documents and regulations into formats that AI systems can process and analyze, enabling more efficient government operations and decision-making. This builds on OpenAI&\#x27;s existing partnership with UAE-based technology group G42, which was established in October 2023 to deliver AI solutions to UAE markets. The initiative represents a growing trend of governments adopting AI technologies to automate bureaucratic processes while maintaining human oversight, as evidenced by the pilot implementation in food import applications where officials retain final decision authority.
+
+**「Operational Impact」** The implementation of AI-readable government systems could significantly reduce processing times for license and certificate applications in Abu Dhabi, though officials will maintain oversight to ensure compliance with regulations and maintain human judgment in final decisions.
+
+**Tags**: `#AI governance`, `#government technology`, `#OpenAI partnerships`, `#Middle East tech`, `#bureaucratic automation`
 
 ---
 
 <a id="item-tech-news-10"></a>
-### [LLM 0.37 Release Adds New Models and Configuration Improvements](https://simonwillison.net/2026/Nov/2/llm/) ⭐️ 7.0/10
+### [xAI Launches Data Bot to Automate Data Science Tasks](https://x.ai/news/data-bot) ⭐️ 7.0/10
 
-Version 0.37 of the LLM CLI tool and Python library adds support for new models including gpt-6.1-sol and gpt-6.1-terra, introduces a new &\#x27;llm openai endpoint add&\#x27; command for configuring additional OpenAI-compatible models, and switches the default model to gpt-6-luna which is half the price of the previous default gpt-5.6-luna. The release also enhances embeddings functionality to support different content types for models like Gemini Embedding 2 that can process text, audio, images, and video.
+xAI has launched Data Bot, an AI-powered tool integrated into Grok Bot that automates data science tasks for teams. The bot can query shared data warehouses, perform analysis, and generate charts or reports according to user preferences, while also joining Slack channels to participate in discussions. According to xAI&\#x27;s team estimates, Data Bot handled approximately 70 hours of work last week that would have otherwise required human data scientists.
 
-rss · Simon Willison · Nov 2, 23:49
+telegram · zaihuapd · Nov 3, 02:44
 
-**「Background」** LLM is a CLI tool and Python library developed by Simon Willison for interacting with language models. The software provides a unified interface to various AI models, allowing developers to configure endpoints, manage different model options, and work with embeddings for processing diverse content types like text, audio, images, and video.
+**「Background」** Data science typically involves specialized professionals who extract insights from data through complex analysis, visualization, and reporting. xAI&\#x27;s Data Bot automates these traditionally human-intensive tasks by integrating directly with data warehouses and generating customized outputs. This represents a significant advancement in applying AI to domain-specific knowledge work, potentially democratizing access to data analysis capabilities across teams.
 
-**「Impact」** Users will experience cost savings as the default model is now gpt-6-luna, which is half the price of the previous default model gpt-5.6-luna, potentially reducing API costs for users who haven&\#x27;t set their own default model.
+**「Impact」** The introduction of Data Bot could significantly reduce the workload on data science teams, allowing human analysts to focus on more complex problem-solving while the AI handles routine data processing and reporting tasks.
 
-**Tags**: `#llm-tools`, `#ai-development`, `#software-updates`, `#developer-tools`, `#language-models`
-
----
-
-<a id="item-tech-news-11"></a>
-### [The U.S. Census Bureau and “Super Intelligence”](https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/) ⭐️ 7.0/10
-
-U.S. Census Bureau&\#x27;s AI data collection affected by new &\#x27;Super Intelligence&\#x27; executive order.
-
-rss · Simon Willison · Nov 2, 13:31
-
-**Tags**: `#AI policy`, `#Data collection`, `#Government regulation`, `#Technology industry`, `#Executive orders`
-
----
-
-<a id="item-tech-news-12"></a>
-### [GDPx Benchmark Measures AI Capabilities in High-Value Domains](https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities) ⭐️ 7.0/10
-
-GDPx introduces a novel benchmark focused on measuring frontier AI model capabilities in high-value commercial domains including chip design, cybersecurity, biology, finance, legal, quant trading, recursive self-improvement, hardware design, materials science, alignment, and software engineering. The benchmark reveals that even the best models score just 12%, with OpenAI&\#x27;s Opus 5.5 and Anthropic&\#x27;s GPT-6 Astra leading rankings, though their scores are impacted by safety classifiers in domains like cybersecurity, biology, and alignment. Google&\#x27;s Gemini 4 Carbon is identified as a significant improvement that competes with top models, while Muse Wonder Full emerges as the best available cybersecurity model.
-
-rss · Semianalysis · Nov 2, 01:51
-
-**「GDPx Benchmark Overview」** GDPx is a novel benchmark designed to measure frontier AI model capabilities specifically in high-value domains where AI will have the most significant commercial impact. Unlike traditional benchmarks that might focus on broad economic measures or general capabilities, GDPx concentrates on 11 specific domains including chip design, cybersecurity, biology, finance, legal, and recursive self-improvement. This targeted approach reflects the belief that the first trillion dollars of AI revenue will be concentrated in sectors that can deploy frontier intelligence at high return on investment.
-
-**「Impact on AI Model Selection」** The GDPx benchmark demonstrates that safety classifiers significantly impact model performance in certain domains, making Muse Wonder Full the best available cybersecurity model despite not leading overall rankings, which suggests organizations should consider both general capabilities and domain-specific safety mechanisms when selecting AI systems for critical applications.
-
-**Tags**: `#AI benchmarking`, `#frontier models`, `#AI capabilities`, `#high-value domains`, `#AI evaluation`
-
----
-
-<a id="item-tech-news-13"></a>
-### [ChatGPT Sharing Link Vulnerability Patched](https://www.parameter.ai/labs/we-found-a-gap-at-openai) ⭐️ 7.0/10
-
-Parameter research team discovered a ChatGPT vulnerability allowing attackers to execute code in logged-in user sessions through malicious sharing links, enabling private conversation data theft. OpenAI patched the flaw on October 26, classified it as P1 severity, and paid a $5,000 bounty to the researchers. The vulnerability exploited a message processing defect between preview functionality and chart components, requiring only link click without app installation.
-
-telegram · zaihuapd · Nov 2, 10:24
-
-**「Background」** ChatGPT&\#x27;s sharing feature allows users to collaborate by sending links to conversations, which normally operate within a secure sandboxed environment. The vulnerability exploited a cross-frame messaging defect that bypassed these security controls, allowing malicious code execution in a victim&\#x27;s browser session when they clicked a specially crafted link. This type of account takeover vulnerability represents a significant security risk as it requires no user interaction beyond clicking a link.
-
-**「Security Impact」** Users who clicked on malicious ChatGPT sharing links could have their accounts completely compromised, with attackers accessing private conversations and exfiltrating sensitive data to external servers without any additional user interaction required.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://aicybr.com/blog/chatgpt-shared-link-session-takeover-parameter-labs-october-2026">ChatGPT Shared-Link Session Takeover: October 2026 Fix ...</a></li>
-<li><a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-chatgpt-share-link-session-hijack-20261031/">One Click Into Someone Else’s ChatGPT: Cross-Frame Messaging ...</a></li>
-<li><a href="https://www.parameter.ai/labs/we-found-a-gap-at-openai">Do the Math: How We Took Over ChatGPT Accounts - Parameter</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#security`, `#ai`, `#vulnerability`, `#chatgpt`, `#account-takeover`
-
----
-
-<a id="item-tech-news-14"></a>
-### [Tesla China App Shows FSD Statistics Page](https://mp.weixin.qq.com/s/gW4mi-7y6vEN88L4wSiW6A) ⭐️ 7.0/10
-
-Tesla&\#x27;s Chinese app has been updated to include a Full Self-Driving \(FSD\) statistics page in simplified Chinese, with some content featuring real Chinese locations. The page shows 0 km for mileage data as the feature is not yet fully available in China, though it indicates future support for smart parking and remote vehicle summoning functionality. Tesla&\#x27;s China website briefly displayed FSD domestic function information but later removed it, and the company has not officially confirmed a launch date for FSD in China.
-
-telegram · zaihuapd · Nov 2, 10:55
-
-**「Background」** FSD \(Full Self-Driving\) represents Tesla&\#x27;s advanced autonomous driving technology that aims to enable vehicles to navigate with minimal human intervention. Previously, Tesla&\#x27;s China website briefly featured FSD domestic function descriptions before being removed, indicating ongoing regulatory and technical adaptation challenges for these features in the Chinese market. The appearance of a localized FSD statistics page in Tesla&\#x27;s Chinese app suggests progress toward making these advanced autonomous capabilities available to Chinese users, though official confirmation and full deployment details are still pending.
-
-**「Potential Impact on Chinese Autonomous Driving Market」** The appearance of this localized FSD page suggests Tesla is making progress toward regulatory and technical adaptation for autonomous driving features in China, one of the world&\#x27;s largest automotive markets, which could significantly impact the competitive landscape for self-driving technology in the region.
-
-**Tags**: `#autonomous-driving`, `#tesla`, `#ai-ml`, `#china-tech`, `#automotive`
+**Tags**: `#\#AI-tools`, `#\#data-science`, `#\#automation`, `#\#productivity`, `#\#enterprise-AI`
 
 ---
 
@@ -290,74 +251,52 @@ telegram · zaihuapd · Nov 2, 10:55
 
 rss · Sean Goedecke · Nov 3, 00:00
 
-**「Background」** A recent paper claims that frontier LLMs like GPT-6 Astra can work directly with neural network weights in seemingly superhuman ways, including identifying training data and improving model performance through weight edits.
+**「Background」** A recent paper claims that frontier LLMs like GPT-6 Astra can work with neural network weights in ways described as &\#x27;superhuman,&\#x27; including identifying training data and improving model performance through direct weight manipulation.
 
-**「Solution」** The author argues these capabilities are actually achievable by competent human researchers. For identifying what games a small network was trained on, the author notes the input channels were labeled and directly connected to grid cells, making it straightforward to calculate which weight patterns corresponded to game elements - demonstrated by a simple Python implementation that creates heatmaps showing these patterns. For the more impressive task of fixing a 0.8B Qwen model&\#x27;s mathematics problem \(where it got stuck in loops after 32k tokens\), the author explains that a human researcher would use a &\#x27;steering&\#x27; approach: comparing looping vs. non-looping reasoning texts, identifying weights contributing to the looping behavior, and trimming those weights. This is exactly what Astra did, showing the technique is not revolutionary but rather an application of existing methods.
+**「Solution」** The author argues these capabilities, while impressive, are not beyond what competent human researchers could accomplish. For identifying what games a small network was trained to play, the author explains the input channels were labeled and directly connected to grid cells, making it straightforward to calculate which weight patterns corresponded to game elements. The author provides a simple Python code example demonstrating this analysis. For the more significant achievement of fixing a 0.8B Qwen model&\#x27;s mathematics problem \(where it would loop after 32k tokens\), the author notes the model wasn&\#x27;t inherently bad at math but had a specific issue. The author explains that a human researcher would likely use a &\#x27;steering&\#x27; approach - comparing looping and non-looping reasoning texts, identifying weights contributing to the problem, and trimming them - which is exactly what Astra did.
 
-**「Takeaway」** While LLMs can directly manipulate neural network weights, these capabilities reflect techniques accessible to human researchers rather than superhuman intelligence, and the most effective approach to model improvement remains through traditional training processes rather than direct weight editing.
+**「Takeaway」** While LLMs&\#x27; ability to directly manipulate neural network weights is impressive, it shouldn&\#x27;t be seen as a revolutionary capability that will transform AI research; the most effective way to improve models remains through traditional training methods, with LLMs potentially helping by enhancing training processes rather than through magical weight tweaks.
 
-**Tags**: `#LLM evaluation`, `#neural networks`, `#AI capabilities`, `#technical analysis`, `#critical thinking`
+**Tags**: `#AI evaluation`, `#LLM capabilities`, `#Neural networks`, `#Critical analysis`, `#Technical depth`
 
 ---
 
 <a id="item-tech-blog-2"></a>
-### [Audience Capture](https://seangoedecke.com/audience-capture/) ⭐️ 7.0/10
+### [Audience Capture](https://seangoedecke.com/audience-capture/) ⭐️ 8.0/10
 
 rss · Sean Goedecke · Nov 3, 00:00
 
-**「Background」** Audience capture occurs when optimizing for engagement metrics leads to attracting the wrong audience—superficial &\#x27;clickers&\#x27; rather than the thoughtful &\#x27;readers&\#x27; who actually engage with your ideas.
+**「Background」** The author, with an engineer&\#x27;s mindset, observes how online writing environments encourage optimizing for engagement metrics like views and clicks, which can lead to attracting superficial audiences rather than the thoughtful readers they actually value.
 
-**「Solution」** The author explains that engagement metrics are valuable proxies but can diverge from actual value when over-optimized. Online platforms reward views and clicks, but these metrics can&\#x27;t distinguish between readers who engage deeply and those who merely scan content. This creates a dangerous incentive to create content that attracts superficial engagement rather than meaningful discussion. The author distinguishes between &\#x27;proxy games&\#x27; \(like getting views\) and &\#x27;real games&\#x27; \(like gaining respect from people you respect\), noting that it&\#x27;s sometimes acceptable to make tradeoffs but dangerous to &\#x27;sell out by habit&\#x27; when it doesn&\#x27;t serve your actual goals.
+**「Solution」** The author distinguishes between proxy metrics \(engagement numbers\) and real goals \(building reputation among thoughtful readers, joining meaningful conversations\). When optimizing too hard for proxies, content creators risk &\#x27;audience capture&\#x27; - replacing quality readers with superficial clickers who don&\#x27;t engage deeply. This applies beyond writing to engineering careers, where &\#x27;proxy games&\#x27; like optimizing Jira ticket metrics can overshadow &\#x27;real games&\#x27; like gaining respect from peers or doing meaningful technical work. The author acknowledges that sometimes tradeoffs are necessary, but warns against selling out by habit when it doesn&\#x27;t serve your actual goals. They write for the 5% of readers who engage thoughtfully, relying on taste and direct feedback rather than raw view counts to gauge success.
 
-**「Takeaway」** Focusing on meaningful engagement with a valuable audience is more important than optimizing for proxy metrics like raw view counts, as the latter can lead to audience capture where you&\#x27;re performing for people who don&\#x27;t actually care about your work.
+**「Takeaway」** Optimizing for proxy metrics like engagement can lead to audience capture, replacing quality connections with superficial numbers, and requires intentional awareness to ensure you&\#x27;re playing the right game that aligns with your actual goals.
 
-**Tags**: `#content-creation`, `#metrics`, `#audience-building`, `#professional-development`, `#writing-strategy`
+**Tags**: `#content-creation`, `#metrics`, `#career-advice`, `#writing`, `#engineering-philosophy`
 
 ---
 
 ## Financial News
 
 <a id="item-finance-news-1"></a>
-### [Anthropic Reports Massive Revenue Growth Despite Huge Losses](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html) ⭐️ 7.0/10
+### [Anthropic Reports Explosive Revenue Growth but Massive Losses in IPO Filing](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html) ⭐️ 7.0/10
 
-Anthropic reported $33.24 billion revenue for the first three quarters of 2026, a 1200% increase year-over-year, while posting a net loss of $104 billion in its IPO filing.
+Anthropic&\#x27;s IPO filing shows $33.24 billion revenue in first three quarters of 2026, up 1200% year-over-year, while net loss reached $104 billion, attributed mainly to convertible bond valuation changes.
 
 telegram · zaihuapd · Nov 2, 15:12
 
-**「Background」** Anthropic, an AI company founded in 2021 by former OpenAI members, is investing heavily in computing infrastructure to support its growth.
+**「Background」** Anthropic, the AI company that created Claude, operates under an unusual governance structure where a &\#x27;Long-Term Benefit Trust&\#x27; appoints four of its seven board members.
+
+**「Industry Implications」** The massive financial results highlight the capital-intensive nature of AI development, potentially affecting investor perceptions of AI company valuations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://penchan.co/en/market/ai/anthropic/dario-amodei-and-team/">Dario Amodei and the Anthropic Founding Team: Eight... | Penchan</a></li>
+<li><a href="https://www.youtube.com/watch?v=ugvHCXCOmm4">Dario Amodei: Anthropic CEO on Claude, AGI &amp; the Future of AI ...</a></li>
+<li><a href="https://www.ft.com/content/24a35e41-2641-4cec-97f5-a974412f9952?syn-25a6b1a6=1">Anthropic ’s seven founders tighten grip ahead of blockbuster IPO</a></li>
 
 </ul>
 </details>
 
 **Tags**: `#AI companies`, `#Financial results`, `#IPO`, `#Revenue growth`, `#Losses`
-
----
-
-<a id="item-finance-news-2"></a>
-### [UK Proposes Extending Migrant Settlement Period to 10 Years](https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk) ⭐️ 7.0/10
-
-UK government proposes extending the settlement period for most migrants from 5 to 10 years, with exceptions for high-earners and public service workers who can still apply after 5 years.
-
-telegram · zaihuapd · Nov 2, 23:50
-
-**「Background」** The UK government is proposing to extend the standard settlement period for most migrants from the current 5 years to 10 years, with exceptions for high-earners and public service workers who can still qualify after 5 years.
-
-**「Labor Market Effects」** The extended settlement period would likely slow workforce integration for most migrants, potentially affecting labor markets in sectors reliant on migrant workers and creating a more segmented workforce between high-earners/public service workers and other migrants.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.bbc.com/news/articles/c6ly052pdx4no">What are the planned changes to immigration rules?</a></li>
-<li><a href="https://www.migrationpolicy.org/sites/default/files/publications/Immigration-and-the-Labour-Market.pdf">Immigration</a></li>
-<li><a href="https://factually.co/fact-checks/economy/uk-immigration-policy-economy-3ff902">Fact Check: How does the UK &#x27;s immigration policy affect its econom...</a></li>
-<li><a href="https://www.economicshelp.org/blog/6399/economics/impact-of-immigration-on-uk-economy/">Impact of Immigration on UK Economy - Economics Help</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Immigration policy`, `#Labor market`, `#Government regulation`, `#UK economy`, `#Public services`
 
 ---
