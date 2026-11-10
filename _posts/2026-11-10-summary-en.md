@@ -5,332 +5,422 @@ date: 2026-11-10
 lang: en
 ---
 
-> From 41 items, 18 important content pieces were selected
+> From 42 items, 23 important content pieces were selected
 
 ---
 
 **Technology News**
-1. [Amazon Replaces Sonnet 4.6 with Strands Decider for Cost Savings](#item-tech-news-1) ⭐️ 8.0/10
-2. [Show HN: Every satellite that passed over any place this week, and its photos](#item-tech-news-2) ⭐️ 8.0/10
-3. [Anthropic Releases Claude Fable 5.2 and Mythos 5.2](#item-tech-news-3) ⭐️ 8.0/10
-4. [Horible public key tricks](#item-tech-news-4) ⭐️ 7.0/10
-5. [Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics](#item-tech-news-5) ⭐️ 7.0/10
-6. [E-means: Outperforming k-means in one-tenth the epochs](#item-tech-news-6) ⭐️ 7.0/10
-7. [Fable 5.2 Creates Complete Game in Single Attempt](#item-tech-news-7) ⭐️ 7.0/10
-8. [Meta Introduces Muse Ember: Smallest, Most Efficient AI Model](#item-tech-news-8) ⭐️ 7.0/10
-9. [Google Gemini routes personal Drive files and emails to human annotators](#item-tech-news-9) ⭐️ 7.0/10
-10. [llm-anthropic 0.31](#item-tech-news-10) ⭐️ 7.0/10
-11. [Google Launches New TPU 8tx and TPU 8i Max Chips](#item-tech-news-11) ⭐️ 7.0/10
-12. [欧盟拟制定《数字公平法案草案》，计划限制成瘾性设计，游戏虚拟货币须标明真实币值](#item-tech-news-12) ⭐️ 7.0/10
-13. [OpenAI 部署系统，35 秒内叫停风险 AI 任务](#item-tech-news-13) ⭐️ 7.0/10
+1. [Smart home devices should work without the internet](#item-tech-news-1) ⭐️ 8.0/10
+2. [Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives](#item-tech-news-2) ⭐️ 8.0/10
+3. [Blender 5.3 Adds Gaussian Splat Support](#item-tech-news-3) ⭐️ 8.0/10
+4. [DeepMind Introduces AlphaProof Code for Software Verification](#item-tech-news-4) ⭐️ 8.0/10
+5. [Claude Fable 5.2 Code Modification Behavior Changes Based on Prompt Framing](#item-tech-news-5) ⭐️ 8.0/10
+6. [Google Releases Gemini 4 Carbon Model to Public](#item-tech-news-6) ⭐️ 8.0/10
+7. [Synaptics patent claims stop work on DisplayLink drivers](#item-tech-news-7) ⭐️ 7.0/10
+8. [AI-Generated Code Creates Fragile Codebases](#item-tech-news-8) ⭐️ 7.0/10
+9. [.NET 11 Runtime Brings Key Improvements](#item-tech-news-9) ⭐️ 7.0/10
+10. [Meta Launches Efficient Muse Ember AI Model](#item-tech-news-10) ⭐️ 7.0/10
+11. [llm-anthropic 0.31](#item-tech-news-11) ⭐️ 7.0/10
+12. [OpenAI&\#x27;s Control Room System Halts Risky AI Tasks in 35 Seconds](#item-tech-news-12) ⭐️ 7.0/10
+13. [Claude Code Security Exposes 2,539 Credentials](#item-tech-news-13) ⭐️ 7.0/10
+14. [马斯克：Grok 4.8 进入强化学习阶段](#item-tech-news-14) ⭐️ 7.0/10
+15. [Fireworks 遭新攻击，客户数据外泄](#item-tech-news-15) ⭐️ 7.0/10
+16. [MiniMax Open-Sources 4K Image Generation Model](#item-tech-news-16) ⭐️ 7.0/10
 
 **Financial News**
-1. [前三季度新能源车出口增长 138.8%](#item-finance-news-1) ⭐️ 8.0/10
-2. [Fed Governor Waller Signals Likely December Rate Hike, Possible Half-Point Increase](#item-finance-news-2) ⭐️ 7.0/10
-3. [Anthropic Withdraws $69.3 Billion IPO Filing](#item-finance-news-3) ⭐️ 7.0/10
-4. [California Voters Reject Billionaire Tax](#item-finance-news-4) ⭐️ 7.0/10
-5. [TSMC Reports 59.7% Year-on-Year Revenue Growth for October 2026](#item-finance-news-5) ⭐️ 7.0/10
+1. [Polymarket Revenue Surges to $1.8 Billion Annualized](#item-finance-news-1) ⭐️ 7.0/10
+2. [Fed Governor Signals Likely December Rate Hike, Possible Half-Point Increase](#item-finance-news-2) ⭐️ 7.0/10
+3. [China&\#x27;s New Energy Vehicle Exports Surge 138.8%](#item-finance-news-3) ⭐️ 7.0/10
+4. [Anthropic 拟募 693 亿美元的 IPO 文件被撤回](#item-finance-news-4) ⭐️ 7.0/10
+5. [加州 5% 亿万富翁税公投未获通过](#item-finance-news-5) ⭐️ 7.0/10
+6. [Alibaba&\#x27;s Pingtouge Plans Hong Kong IPO for 2027](#item-finance-news-6) ⭐️ 7.0/10
+7. [Anthropic Restricts AI Services to 185 Countries, Excluding China](#item-finance-news-7) ⭐️ 7.0/10
 
 ---
 
 ## Technology News
 
 <a id="item-tech-news-1"></a>
-### [Amazon Replaces Sonnet 4.6 with Strands Decider for Cost Savings](https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/) ⭐️ 8.0/10
+### [Smart home devices should work without the internet](https://docodethatmatters.com/home-automation-overnight-success/) ⭐️ 8.0/10
 
-Amazon replaced their Sonnet 4.6 ticket classification/routing system with Strands Decider, resulting in millions of dollars in cost savings. The Strands Decider system optimized ticket classification processes, achieving approximately $21,700 in savings per million tickets processed. This implementation represents a practical example of moving away from larger language models to more efficient specialized classifiers for production systems.
+Discussion on the importance of local-first smart home architectures that function without internet connectivity.
 
-hackernews · aloukissas · Nov 10, 06:01 · [Discussion](https://news.ycombinator.com/item?id=50436640)
+hackernews · skittleson · Nov 10, 15:25 · [Discussion](https://news.ycombinator.com/item?id=50441707)
 
-**「Background」** Claude Sonnet 4.6 was a general-purpose language model that Amazon used for ticket classification and routing in their internal system, chosen for balancing intelligence with cost. Strands Decider is a specialized 2B parameter decision model that reframes text classification as a constrained decision problem over fixed labels rather than generating free-form responses. This shift from general-purpose language models to specialized decision models represents a trend toward more efficient and cost-effective AI solutions for classification tasks.
-
-**「Industry Implications」** The cost savings demonstrate that specialized ML systems can outperform general-purpose language models in specific production tasks, encouraging organizations to evaluate the trade-offs between using large LLMs and more efficient, purpose-built solutions for their classification and routing needs.
-
-**「Technical Evolution and Questions」** Commenters noted the evolution of ML systems from SVMs to LLMs and back to more efficient classifiers, with armcat observing &\#x27;it&\#x27;s so fascinating to watch how the field moved over to LLMs, and then back to faster/cheaper classifiers again.&\#x27; Kaedon questioned the scale of tickets needed to achieve the claimed savings, suggesting approximately 92 million tickets annually to reach $2 million in savings at the reported rate.
-
-**Tags**: `#machine-learning`, `#optimization`, `#case-study`, `#enterprise-ai`, `#cost-reduction`
+**Tags**: `#IoT`, `#home automation`, `#privacy`, `#system architecture`, `#open source`
 
 ---
 
 <a id="item-tech-news-2"></a>
-### [Show HN: Every satellite that passed over any place this week, and its photos](https://www.watched.earth/) ⭐️ 8.0/10
+### [Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives](https://github.com/GoogleChrome/modern-web-guidance) ⭐️ 8.0/10
 
-A web tool that visualizes satellite passes over any location and displays actual satellite imagery from those passes.
+Chrome-led initiative provides modern web guidance to help AI coding agents use browser-native features instead of outdated JavaScript patterns.
 
-hackernews · a585gupt · Nov 9, 17:51 · [Discussion](https://news.ycombinator.com/item?id=50428907)
+hackernews · paulirish · Nov 10, 18:01 · [Discussion](https://news.ycombinator.com/item?id=50443812)
 
-**Tags**: `#satellite-tracking`, `#data-visualization`, `#web-development`, `#open-source`, `#space-technology`
+**Tags**: `#web-development`, `#ai-coding-assistants`, `#browser-apis`, `#modern-javascript`, `#web-standards`
 
 ---
 
 <a id="item-tech-news-3"></a>
-### [Anthropic Releases Claude Fable 5.2 and Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) ⭐️ 8.0/10
+### [Blender 5.3 Adds Gaussian Splat Support](https://www.blender.org/download/releases/5-3/) ⭐️ 8.0/10
 
-Anthropic has released Claude Fable 5.2 and Mythos 5.2, featuring enhanced coding, reasoning, and visual capabilities. Fable is available to all users while Mythos requires verification for cybersecurity or life sciences applications. The new models offer 30% faster output than version 5.1, with pricing reduced to $8 per million input tokens and $40 per million output tokens, plus a 2.5x faster mode. During testing, Claude 5.2 formally proved Fermat&\#x27;s Last Theorem in 30 hours.
+Blender 5.3 introduces support for Gaussian Splat rendering technology, allowing artists and developers to work with this advanced visualization method directly in the open-source 3D software. The implementation is described as mature and well-integrated into Blender&\#x27;s existing interface, with users reporting good performance even with large datasets of 4M splats. This release makes cutting-edge rendering technology accessible to the broader community of 3D creators who use Blender.
 
-telegram · zaihuapd · Nov 9, 19:27
+hackernews · amlib · Nov 10, 16:15 · [Discussion](https://news.ycombinator.com/item?id=50442426)
 
-**「Background」** Claude Fable and Mythos are AI language models developed by Anthropic, with Fable designed for general users and Mythos specialized for technical fields like cybersecurity and life sciences. The models share the same underlying architecture but serve different user needs, with Mythos requiring verification in specific technical domains. The ability of these models to prove complex mathematical theorems like Fermat&\#x27;s Last Theorem demonstrates their advanced reasoning capabilities, which remained unsolved by mathematicians for over 300 years until Andrew Wiles&\#x27; proof in 1994.
+**「Background」** Gaussian splatting is a volume rendering technique that represents 3D scenes using collections of small, semi-transparent mathematical primitives called Gaussian functions or &\#x27;splats,&\#x27; originally introduced as &\#x27;splatting&\#x27; by Lee Westover in 1991. This technology allows for direct rendering of volume data without converting it into surface or line primitives, offering faster and more realistic scene capture and rendering capabilities. Blender&\#x27;s integration of this advanced technique represents a significant advancement in making cutting-edge 3D visualization technology accessible to the open-source community.
 
-**「Practical Performance Benefits」** Users have reported significant practical benefits, such as one developer who used Fable 5.2 to optimize a 600,000-line Fortran codebase, achieving a 36x speedup in computational material science work within just 2 days, leading to the open-sourcing of the results.
+**「Impact」** Artists and developers can now incorporate Gaussian Splat technology into their workflows without needing specialized software, potentially accelerating adoption of this rendering method in creative projects and research applications.
 
-**「Mixed User Experiences」** Community testing reveals mixed experiences, with one user noting that Fable 5.2&\#x27;s performance is now well-balanced against other Anthropic models like Opus 5.5, while another found that GPT-6-Luna still detected bugs that Fable 5.2 missed in automated code review, suggesting the model, while improved, may not yet match all competitors in certain technical tasks.
+**「Community Discussion」** Users have reported positive experiences with the new feature, with one noting that the implementation is &quot;immediately very mature, fast, and well-integrated&quot; and found no inconsistencies with the rest of Blender&\#x27;s interface when working with 4M splats exported from other tools.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Fermat&#x27;s_Last_Theorem">Fermat &#x27; s Last Theorem - Wikipedia</a></li>
-<li><a href="https://www.britannica.com/biography/Pierre-de-Fermat">Pierre de Fermat | Biography &amp; Facts | Britannica</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splatting - Wikipedia</a></li>
+<li><a href="https://www.walturn.com/insights/what-is-gaussian-splatting-a-complete-guide-to-the-technology">What Is Gaussian Splatting? A Complete Guide to the Technology</a></li>
+<li><a href="https://blog.chaos.com/gaussian-splatting-3d-rendering">Beyond polygons: How Gaussian Splatting transforms 3D rendering</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI models`, `#Claude`, `#performance improvements`, `#specialized applications`, `#pricing updates`
+**Tags**: `#3D Graphics`, `#Rendering Technology`, `#Open Source`, `#Software Engineering`, `#Computer Vision`
 
 ---
 
 <a id="item-tech-news-4"></a>
-### [Horible public key tricks](https://maurycyz.com/projects/badcert/) ⭐️ 7.0/10
+### [DeepMind Introduces AlphaProof Code for Software Verification](https://deepmind.google/blog/introducing-alphaproof-code/) ⭐️ 8.0/10
 
-Technical exploration of problematic certificate implementations and public key cryptography vulnerabilities with significant security implications.
+DeepMind has introduced AlphaProof Code, an AI system designed for formal verification of software code. This system appears to leverage AI techniques to verify software correctness, potentially improving software reliability. The announcement suggests this represents a significant advancement in applying AI to formal verification processes, though specific technical details about its capabilities and limitations are not available in the provided information.
 
-hackernews · Curiositry · Nov 10, 00:07 · [Discussion](https://news.ycombinator.com/item?id=50434264)
+hackernews · ilreb · Nov 10, 12:11 · [Discussion](https://news.ycombinator.com/item?id=50439193)
 
-**Tags**: `#cryptography`, `#security`, `#certificates`, `#tls`, `#vulnerabilities`
+**「Background」** Formal verification is a mathematical method for proving the correctness of software code against specified requirements, typically using formal logic and mathematical proofs. This approach has traditionally been labor-intensive and required specialized expertise, limiting its adoption to critical systems like aerospace, medical devices, and cryptographic protocols. DeepMind&\#x27;s AlphaProof Code represents an advancement in automating this process through AI, potentially making formal verification more accessible and scalable for general software development.
+
+**「Impact」** The introduction of AlphaProof Code could significantly improve software reliability by automating formal verification processes, potentially reducing bugs in critical software systems and saving development time and resources for software engineers and organizations.
+
+**「Community Discussion」** The community discussion shows skepticism about the claim of finding zero bugs in a non-trivial codebase, with hedora questioning whether the theorems might have been wrong or only narrow properties verified. Meanwhile, Mizza predicts that in the next few years, running unverified software may seem as outdated as using Telnet or plaintext HTTP today.
+
+**Tags**: `#formal\_verification`, `#ai\_code\_verification`, `#software\_engineering`, `#deepmind`, `#reliability`
 
 ---
 
 <a id="item-tech-news-5"></a>
-### [Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics](https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/) ⭐️ 7.0/10
+### [Claude Fable 5.2 Code Modification Behavior Changes Based on Prompt Framing](https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/) ⭐️ 8.0/10
 
-Semi-transparent colored solar panels offer a technical solution for combining agriculture with energy generation in agrivoltaics systems.
+Claude Fable 5.2&\#x27;s code modification behavior changes significantly based on prompt framing about code ownership. When prompts present code as someone else&\#x27;s or don&\#x27;t mention ownership, the model tends to add to existing structure even when repeating code. However, when explicitly told &\#x27;This codebase is yours,&\#x27; the model merges repeated code in about half of tries compared to under a tenth of tries without this framing.
 
-hackernews · speckx · Nov 9, 14:31 · [Discussion](https://news.ycombinator.com/item?id=50426175)
+rss · Simon Willison · Nov 10, 05:34
 
-**Tags**: `#renewable energy`, `#solar technology`, `#agriculture innovation`, `#sustainable development`, `#material science`
+**「Prompt Engineering Context」** Prompt engineering has become a critical skill when working with AI code generation models, as the specific framing and context provided in prompts can significantly influence model behavior. Previous versions of Claude and similar AI systems have shown varying responses to different prompt structures, but Claude Fable 5.2 demonstrates a particularly pronounced sensitivity to how code ownership is presented in prompts.
+
+**「Impact」** Developers must carefully structure prompts when working with Claude Fable 5.2 to achieve better code generation results, specifically by framing the code as belonging to the AI when they want structural improvements rather than just additions.
+
+**Tags**: `#AI prompting`, `#Claude AI`, `#Code generation`, `#Prompt engineering`, `#Anthropic`
 
 ---
 
 <a id="item-tech-news-6"></a>
-### [E-means: Outperforming k-means in one-tenth the epochs](https://e-means.github.io/) ⭐️ 7.0/10
+### [Google Releases Gemini 4 Carbon Model to Public](https://deepmind.google/models/model-cards/gemini-4-carbon/) ⭐️ 8.0/10
 
-E-means is a new clustering algorithm that claims to outperform traditional k-means with significantly fewer iterations, showing up to 146x speedup in one case. The algorithm appears to be particularly effective for large datasets, reducing the number of epochs needed by a factor of 10. It&\#x27;s available as open source with practical implementations already showing benefits in various applications.
+Google has released its new flagship Gemini 4 Carbon model to the public, which ranks \#1 in benchmarks like CursorBench 4.0 and offers significant cost advantages at $2/million tokens for input and $10/million tokens for output. The model is specifically designed for cybersecurity and long-term intelligent agent workflows, covering complex knowledge work, software engineering, and scientific reasoning. Available through Gemini API, Google AI Studio, and Gemini for Business at the same price point as the previous Argon model, it also features Antigravity preview with multi-agent collaboration capabilities.
 
-hackernews · porridgeraisin · Nov 9, 18:45 · [Discussion](https://news.ycombinator.com/item?id=50429734)
+telegram · zaihuapd · Nov 10, 15:48
 
-**「K-means Clustering Fundamentals」** K-means clustering is a widely used unsupervised learning algorithm that partitions data points into distinct groups based on similarity, aiming to minimize the variance within each cluster. This fundamental technique in machine learning and data analysis has been applied across numerous domains, from customer segmentation to image compression. The development of E-means represents an attempt to improve upon this classic algorithm by significantly reducing the computational iterations required to achieve convergence.
+**「Background」** Gemini models represent Google&\#x27;s advanced AI system family, designed to handle complex reasoning tasks across multiple domains. Previous iterations have established Google&\#x27;s position in the competitive AI landscape, with each new version typically demonstrating improved performance benchmarks and specialized capabilities for specific applications.
 
-**「Impact」** The algorithm could significantly speed up clustering tasks for data scientists and machine learning practitioners working with large datasets, potentially reducing computation time from hours to minutes in some cases.
-
-**「Community Discussion」** The community discussion shows mixed results, with one user reporting a 146x speedup on GPU for their IVF index implementation, while another found it not better for their specific use case of relaxing an icosahedral mesh on a sphere. There&\#x27;s also some skepticism about the novelty of the approach, with one commenter suggesting it&\#x27;s similar to existing minibatch k-means techniques.
-
-**Tags**: `#machine-learning`, `#clustering-algorithms`, `#performance-optimization`, `#k-means`, `#algorithms`
-
----
-
-<a id="item-tech-news-7"></a>
-### [Fable 5.2 Creates Complete Game in Single Attempt](https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game) ⭐️ 7.0/10
-
-Fable 5.2, an AI game development tool, successfully created a complete game in a single attempt, demonstrating significant advancement in AI capabilities for creative development. The tool generated a functional game without requiring multiple iterations or human intervention, showcasing improved code generation and game design capabilities compared to previous versions. This represents a notable shift in accessibility for game creation, though the source notes some design details were altered from the original concept.
-
-hackernews · lexandstuff · Nov 9, 23:08 · [Discussion](https://news.ycombinator.com/item?id=50433659)
-
-**「Background」** Fable 5.2 is an AI model developed by Anthropic that represents a significant advancement in automated game development. It succeeds Fable 5.1 as part of the AI Game Developer platform, which enables users to create games through natural language prompts. The model&\#x27;s ability to generate complete, playable games in a single attempt—referred to as &\#x27;one-shotting&\#x27;—marks a notable evolution in AI-assisted creative tools, potentially lowering the barrier to entry for game development while raising questions about the nature of creativity and effort in digital creation.
-
-**「Impact」** The one-shot game creation capability lowers the barrier to entry for aspiring game developers, potentially democratizing game development but raising questions about originality and the learning process when complex results can be achieved without understanding fundamental concepts.
-
-**「Community Discussion」** Community members expressed mixed feelings about the implications, with some lamenting the loss of scarcity and value in creative achievements when AI can generate complex games effortlessly, while others cautioned against overemphasizing the &\#x27;one-shot&\#x27; aspect, noting that much of the capability comes from internal prompting and testing that consumes additional tokens.
+**「Cybersecurity Enhancement」** Organizations implementing Gemini 4 Carbon for cybersecurity may experience improved vulnerability detection, validation, and remediation capabilities, potentially reducing response times to security threats. The model&\#x27;s state-of-the-art performance across the cybersecurity defense lifecycle could enable security teams to identify and address vulnerabilities more efficiently than with previous AI solutions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://ai-game.dev/blog/new-ai-models-fable-5-2-gpt-image-2-6">New AI Models in AI Game Developer: Claude Fable 5.2 and GPT ...</a></li>
-<li><a href="https://forwardfuture.com/newsletter/originals/i-put-fable-5-2-to-work-5-real-world-field-tests-and-what-i-learned">I Put Fable 5.2 to Work: 5 Real-World Field Tests and What I ...</a></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/">Introducing Gemini 4 Carbon - The Keyword</a></li>
+<li><a href="https://thenewstack.io/gemini-4-carbon-swarm/">Google says Gemini 4 Carbon proved Signal’s encryption in ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI tools`, `#game development`, `#software engineering`, `#LLMs`, `#creative AI`
+**Tags**: `#AI Models`, `#Google DeepMind`, `#Software Engineering`, `#Cybersecurity`, `#Cost Efficiency`
+
+---
+
+<a id="item-tech-news-7"></a>
+### [Synaptics patent claims stop work on DisplayLink drivers](https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/) ⭐️ 7.0/10
+
+Synaptics patent claims have halted work on DisplayLink drivers, raising important legal questions about reverse engineering and patent law in open source development.
+
+hackernews · speckx · Nov 10, 18:02 · [Discussion](https://news.ycombinator.com/item?id=50443824)
+
+**Tags**: `#patents`, `#open-source`, `#legal`, `#displaylink`, `#hardware`
 
 ---
 
 <a id="item-tech-news-8"></a>
-### [Meta Introduces Muse Ember: Smallest, Most Efficient AI Model](https://research.meta.ai/blog/muse-ember) ⭐️ 7.0/10
+### [AI-Generated Code Creates Fragile Codebases](https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/) ⭐️ 7.0/10
 
-Meta AI has launched Muse Ember, their smallest and most efficient AI model designed for complex reasoning tasks including tool calls, coding subtasks, routing, extraction, and long document parsing. The model is priced at $0.10/million input tokens and $0.50/million output tokens for shorter prompts, with pricing increasing after 200k input tokens. According to Artificial Analysis, Muse Ember sits on the efficiency frontier, offering competitive intelligence index compared to similar-priced models like Claude Haiku 5.5 and GPT-6 Luna.
+The article examines how AI-generated code creates fragile codebases, affecting software developers and organizations adopting AI tools for coding. The fragility manifests as shallow tests, overly complex code, and decreased human understanding of systems, particularly as AI adoption accelerates in software development. Despite substantial community engagement \(286 points, 350 comments\), the core concern about code maintainability remains relevant.
 
-hackernews · dvaplima · Nov 9, 17:58 · [Discussion](https://news.ycombinator.com/item?id=50429024)
+hackernews · plun9 · Nov 10, 10:25 · [Discussion](https://news.ycombinator.com/item?id=50438318)
 
-**「Background」** The AI industry has been developing smaller, more efficient models to compete with larger general-purpose systems. Muse Ember enters a market segment already occupied by models like OpenAI&\#x27;s GPT-6 Luna and Anthropic&\#x27;s Claude Haiku 5.5, which are designed for specific tasks rather than broad capabilities. This trend reflects a shift toward cost-effective AI solutions that can handle specialized workloads like tool calls, coding subtasks, and document processing without the computational expense of larger models.
+**「Background」** AI coding assistants have become increasingly prevalent in software development, generating code based on patterns in training data rather than deep understanding. This approach can produce code that appears functional superficially but lacks the robustness and maintainability characteristics of human-written code.
 
-**「Industry Impact」** Muse Ember&\#x27;s cost efficiency and specialized design could make AI more accessible for organizations focused on specific tasks like coding assistance or document processing. Its competitive pricing structure, particularly the low cached input token cost at $0.004/million, may encourage developers to build more AI-intensive applications without prohibitive costs.
+**「Impact」** Organizations may face increased technical debt and maintenance costs as AI-generated code requires more oversight and refactoring. Developers will need to develop new skills to effectively review and improve AI-generated code, potentially shifting their role from code creation to code curation and system design.
 
-**「Community Response」** Community members noted an unexpected lack of correlation between Muse Ember&\#x27;s reasoning levels and output quality, with one user observing that &\#x27;more reasoning tokens doesn&\#x27;t seem to produce an obviously better SVG.&\#x27; There&\#x27;s also discussion about the industry potentially moving toward specialized AI models rather than general-purpose ones, similar to how the PC market evolved with specialized applications.
+**「Community Discussion」** Commenters disagree on whether AI tools have sufficiently evolved to address fragility concerns, with iagooar arguing that &\#x27;things have radically changed&\#x27; since the article was written, while proc0 suggests that programming involves high-level mathematical abstractions that AI is increasingly capable of handling. Basilgohar, a 20+ year software engineer, has fully embraced AI for coding, finding it &\#x27;invaluable&\#x27; for staying relevant in business.
 
-**Tags**: `#AI/ML`, `#Model Efficiency`, `#Meta AI`, `#Cost Optimization`, `#Technology News`
+**Tags**: `#AI-generated-code`, `#software-engineering`, `#code-quality`, `#developer-tools`, `#technology-ethics`
 
 ---
 
 <a id="item-tech-news-9"></a>
-### [Google Gemini routes personal Drive files and emails to human annotators](https://github.com/thisisme6598/gemini_files/) ⭐️ 7.0/10
+### [.NET 11 Runtime Brings Key Improvements](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime) ⭐️ 7.0/10
 
-Google routes personal Drive files and emails from Consumer Gemini with Connected Apps to human annotators, raising significant privacy concerns.
+Microsoft has released .NET 11, bringing significant technical improvements to the runtime. The update includes enhanced async support that provides more friendly stack traces without state machines in the code while maintaining equivalent performance. Additionally, .NET 11 introduces a change in decimal behavior where \(decimal\)0.1 now evaluates to 0.1000000000000000055511151231 instead of 0.1 as in .NET 10.
 
-hackernews · gf74918 · Nov 9, 18:24 · [Discussion](https://news.ycombinator.com/item?id=50429426)
+hackernews · stevefan1999 · Nov 10, 12:20 · [Discussion](https://news.ycombinator.com/item?id=50439284)
 
-**Tags**: `#privacy`, `#AI-ethics`, `#data-handling`, `#google-gemini`, `#user-data`
+**「Background」** .NET is Microsoft&\#x27;s open-source, cross-platform software development framework that evolved from the original Windows-only .NET Framework. The transition to .NET Core in 2016 marked a significant shift to a modular, cross-platform approach, with subsequent versions continuing to enhance performance and capabilities. Version updates like .NET 11 represent Microsoft&\#x27;s ongoing commitment to improving the runtime environment, security, and developer experience for building applications across various platforms.
+
+**「Impact」** The decimal behavior change in .NET 11 may affect applications that rely on precise decimal representations, requiring developers to test and potentially update code that depends on specific decimal outputs. The improved async support could simplify debugging and maintenance of asynchronous code.
+
+**「Community Discussion」** Community members note that .NET is often underappreciated due to legacy perceptions, with some developers still associating it only with Windows or outdated versions. Many developers praise the platform&\#x27;s capabilities for backend development, with one commenter stating &\#x27;day to day working with C\# and .NET for backends? It&\#x27;s really fantastic.&\#x27;
+
+**Tags**: `#.NET`, `#runtime`, `#software-engineering`, `#microsoft`, `#version-update`
 
 ---
 
 <a id="item-tech-news-10"></a>
-### [llm-anthropic 0.31](https://simonwillison.net/2026/Nov/9/llm-anthropic/) ⭐️ 7.0/10
+### [Meta Launches Efficient Muse Ember AI Model](https://simonwillison.net/2026/Nov/10/muse-ember/) ⭐️ 7.0/10
 
-Update to the llm-anthropic tool adds support for Anthropic&\#x27;s new Fable 5.2 and Mythos 5.2 models.
+Meta has launched Muse Ember 1.0, their smallest and most efficient AI model designed for complex reasoning execution and software engineering tasks like coding subtasks, document parsing, and tool calls. The model is competitively priced at $0.10/million input tokens and $0.50/million output tokens for prompts up to 200k tokens, with higher pricing for longer inputs. According to Artificial Analysis benchmarks, Muse Ember sits on the efficiency frontier, offering strong intelligence scores \(up to 36\) at competitive costs \($0.12-$0.14 per task\), making it an attractive option for developers and organizations.
 
-rss · Simon Willison · Nov 9, 23:58
+rss · Simon Willison · Nov 10, 07:28
 
-**Tags**: `#AI/ML`, `#Open Source`, `#Anthropic`, `#Developer Tools`, `#Model Updates`
+**「Competitive Landscape of Small AI Models」** Meta&\#x27;s Muse Ember enters a competitive market of small, efficient AI models that includes OpenAI&\#x27;s GPT-6 Luna and Anthropic&\#x27;s Claude Haiku 5.5, all priced similarly at $0.10 per million input tokens and $0.50 per million output tokens for shorter prompts. These smaller models are designed for specific tasks like coding subtasks, document processing, and tool calls, targeting developers and organizations looking for cost-effective AI solutions without the high computational requirements of larger models.
+
+**「Cost-Effective AI for Development」** Developers and organizations can now access a highly efficient AI model that performs competitively with more expensive options like Claude Haiku 5.5, but at nearly 3x lower cost, making AI integration more accessible for budget-conscious organizations processing large volumes of text or performing software engineering tasks.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.cometapi.com/claude-haiku-5-5-vs-gpt-6-luna/">Claude Haiku 5 . 5 vs GPT - 6 Luna : Benchmarks, Pricing... - CometAPI</a></li>
+<li><a href="https://kingy.ai/blog/gpt-sol-luna-vs-claude-haiku-5-5/">GPT Sol &amp; Luna vs Claude Haiku 5 . 5 : Specs and... - Kingy AI</a></li>
+<li><a href="https://www.toolcolumn.com/learn/claude-haiku-5-5-vs-gpt-6-luna">Claude Haiku 5 . 5 vs GPT - 6 Luna : Same Price, Different... | ToolColumn</a></li>
+<li><a href="https://interestingengineering.com/ai-robotics/meta-muse-ember-smallest-model-ai-agents">Meta unveils Muse Ember , its smallest model yet for cheaper AI agents</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI models`, `#Meta AI`, `#Pricing`, `#Software engineering`, `#Efficiency`
 
 ---
 
 <a id="item-tech-news-11"></a>
-### [Google Launches New TPU 8tx and TPU 8i Max Chips](https://www.bloomberg.com/news/articles/2026-11-09/google-escalates-nvidia-rivalry-with-new-versions-of-its-tpu-systems) ⭐️ 7.0/10
+### [llm-anthropic 0.31](https://simonwillison.net/2026/Nov/9/llm-anthropic/) ⭐️ 7.0/10
 
-Google has launched two new Tensor Processing Unit \(TPU\) chips: the TPU 8tx for government agencies and regulated industries to handle secure data with AMD chip collaboration, and the TPU 8i Max for AI applications with long context windows, featuring dual-chip integration in a single package for enhanced computing power and memory capacity. The company is accelerating its product development cycle, moving from a biennial update pace to continuous expansion of its TPU product line. Major companies including Apple, Meta, Oracle, and Anthropic have already adopted Google&\#x27;s TPU chips as an alternative to NVIDIA GPUs in the AI hardware market.
+Simon Willison updates the llm-anthropic tool to support Anthropic&\#x27;s new top-ranked Fable 5.2 and Mythos 5.2 models that claim to solve important physics problems.
 
-telegram · zaihuapd · Nov 9, 13:36
+rss · Simon Willison · Nov 9, 23:58
 
-**「Background」** Tensor Processing Units \(TPUs\) are specialized AI accelerators developed by Google to optimize machine learning workloads. Previously, Google followed a two-year release cycle for new TPU processors, but is now accelerating its hardware development to better compete with NVIDIA&\#x27;s dominant position in AI computing.
-
-**「Impact」** The expanded TPU product line provides enterprises with specialized AI hardware options tailored to specific use cases, potentially reducing dependency on NVIDIA&\#x27;s GPU ecosystem and increasing competition in the AI accelerator market.
-
-**Tags**: `#AI hardware`, `#Cloud computing`, `#Competition`, `#Google TPU`, `#NVIDIA`
+**Tags**: `#AI/ML`, `#Language Models`, `#Anthropic`, `#Fable/Mythos`, `#Developer Tools`
 
 ---
 
 <a id="item-tech-news-12"></a>
-### [欧盟拟制定《数字公平法案草案》，计划限制成瘾性设计，游戏虚拟货币须标明真实币值](https://www.mlex.com/mlex/articles/2546584/digital-businesses-face-addictive-design-controls-under-draft-eu-consumer-law) ⭐️ 7.0/10
+### [OpenAI&\#x27;s Control Room System Halts Risky AI Tasks in 35 Seconds](https://interestingengineering.com/ai-robotics/openai-control-room-35-second-model-shutdown) ⭐️ 7.0/10
 
-EU proposes major legislation to regulate digital business practices, including restrictions on addictive design and requirements for transparent virtual currency valuation.
+OpenAI has deployed a &\#x27;control room&\#x27; system in its research facilities that can halt risky AI tasks within 35 seconds of receiving a stop command. The system manages training, evaluation, and data processing tasks through unique task IDs and verifies task authorization before allowing the inference engine to process requests. Additionally, all cutting-edge reinforcement learning tasks are equipped with independent model monitors that check for problematic behaviors and alert potential issues.
 
-telegram · zaihuapd · Nov 9, 16:42
+telegram · zaihuapd · Nov 10, 05:47
 
-**Tags**: `#regulation`, `#user-experience`, `#business-models`, `#policy`, `#privacy`
+**「Background」** As AI systems become increasingly capable, ensuring their safe operation has become a critical concern in the field. Reinforcement learning, in particular, presents unique safety challenges as these systems learn through trial and error, potentially developing unexpected behaviors. OpenAI&\#x27;s new control room system represents an evolution in AI safety infrastructure, building on earlier approaches to provide more rapid intervention capabilities for potentially risky AI operations.
+
+**「Impact」** This system provides concrete technical measures for AI safety, potentially reducing the risk of harmful AI behavior during research and development. The implementation of independent model monitors for reinforcement learning tasks represents a significant step toward more transparent and controllable AI systems.
+
+**Tags**: `#AI safety`, `#OpenAI`, `#Reinforcement learning`, `#System architecture`, `#Risk management`
 
 ---
 
 <a id="item-tech-news-13"></a>
-### [OpenAI 部署系统，35 秒内叫停风险 AI 任务](https://interestingengineering.com/ai-robotics/openai-control-room-35-second-model-shutdown) ⭐️ 7.0/10
+### [Claude Code Security Exposes 2,539 Credentials](https://www.ithome.com/1/024/888.htm) ⭐️ 7.0/10
 
-OpenAI has deployed a control room system that can halt risky AI tasks within 35 seconds, implementing critical safety measures for their AI systems.
+Security company Apiiro discovered that 2,539 real credentials, including database passwords and API tokens, were exposed in 1,994 GitHub repositories due to a vulnerability in Claude Code. The issue occurred because Claude Code writes approved shell commands to local configuration files, which were then uploaded to public repositories when not properly ignored by Git. Over 100,000 Claude Code local settings files were uploaded to public repositories, with approximately 1,100 containing sensitive data. The Claude Code team is reportedly researching preventive measures and considering implementing built-in key scanning functionality.
 
-telegram · zaihuapd · Nov 10, 05:47
+telegram · zaihuapd · Nov 10, 11:20
 
-**Tags**: `#AI safety`, `#OpenAI`, `#Control systems`, `#Risk management`, `#Reinforcement learning`
+**「What is Claude Code」** Claude Code is Anthropic&\#x27;s agentic coding tool designed for terminals and IDEs that understands codebases, edits files, runs commands, and helps developers complete engineering tasks more efficiently. The tool delegates substantial coding work directly from the terminal, with Anthropic claiming it can complete tasks in one pass that might normally take 45+ minutes of manual work.
+
+**「Developer Impact」** Developers using Claude Code who have uploaded projects containing local configuration files to public repositories may have had their credentials exposed, potentially compromising their associated services and requiring immediate credential rotation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Claude_%28AI%29">Claude (AI) - Wikipedia</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI coding agent and assistant</a></li>
+<li><a href="https://www.youtube.com/watch?v=AJpK3YTTKZ4">Introducing Claude Code - YouTube</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#security`, `#software-engineering`, `#development-tools`, `#vulnerability`, `#credentials`
+
+---
+
+<a id="item-tech-news-14"></a>
+### [马斯克：Grok 4.8 进入强化学习阶段](https://x.com/elonmusk/status/2120088070443655190) ⭐️ 7.0/10
+
+Elon Musk announces Grok 4.8 has entered reinforcement learning phase after architectural overhaul.
+
+telegram · zaihuapd · Nov 10, 12:28
+
+**Tags**: `#AI/ML`, `#Language Models`, `#Grok`, `#Reinforcement Learning`, `#Elon Musk`
+
+---
+
+<a id="item-tech-news-15"></a>
+### [Fireworks 遭新攻击，客户数据外泄](https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyfzhx2605532.shtml) ⭐️ 7.0/10
+
+Major AI platform Fireworks suffers security breach compromising customer data, model weights, and datasets, potentially jeopardizing its $30B funding plans.
+
+telegram · zaihuapd · Nov 10, 13:00
+
+**Tags**: `#security-breach`, `#ai-platforms`, `#data-leak`, `#cybersecurity`, `#funding-round`
+
+---
+
+<a id="item-tech-news-16"></a>
+### [MiniMax Open-Sources 4K Image Generation Model](https://huggingface.co/MiniMaxAI/MiniMax-H3-Image) ⭐️ 7.0/10
+
+MiniMax has open-sourced their H3 Image model, capable of generating 4096×4096 resolution 4K images in approximately 10 seconds. The model supports text-to-image generation, image referencing with up to 16 reference images, and image editing capabilities, with enhanced performance in complex instruction understanding and detail rendering. A high-speed version offers 1.5-2x faster generation in standard mode and 3-4x faster in high-speed mode compared to mainstream tools.
+
+telegram · zaihuapd · Nov 10, 15:39
+
+**「Background」** AI image generation has evolved rapidly in recent years, with models like DALL-E, Midjourney, and Stable Diffusion setting benchmarks for quality and speed. However, generating high-resolution images \(particularly 4K\) has typically been computationally intensive, often requiring significant time and resources. The ability to generate 16-megapixel 4K images in approximately 10 seconds represents a notable advancement in speed and efficiency, while supporting up to 16 reference images demonstrates enhanced control over the generation process.
+
+**「Impact」** Developers and creative professionals now have access to a fast, high-resolution image generation tool that can produce 16-megapixel images in seconds, significantly reducing workflow time for projects requiring detailed imagery. The model&\#x27;s integration with MiniMax Code and other platforms, along with competitive pricing at $0.069 per 4K image \(with launch discounts\), makes it accessible for both individual creators and organizations.
+
+**Tags**: `#AI image generation`, `#4K imaging`, `#open source`, `#text-to-image`, `#MiniMax`
 
 ---
 
 ## Financial News
 
 <a id="item-finance-news-1"></a>
-### [前三季度新能源车出口增长 138.8%](https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwpfnc2438186.shtml) ⭐️ 8.0/10
+### [Polymarket Revenue Surges to $1.8 Billion Annualized](https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html) ⭐️ 7.0/10
 
-China&\#x27;s new energy vehicle exports grew 138.8% in the first three quarters of 2026, offsetting declining domestic sales and becoming a key growth driver for automakers.
+Prediction market platform Polymarket has reached $1.8 billion in annualized revenue, an 80% increase from $1 billion just five months ago, according to company statements.
 
-telegram · zaihuapd · Nov 10, 02:56
+rss · CNBC Finance · Nov 10, 13:00
 
-**Tags**: `#automotive industry`, `#international trade`, `#economic indicators`, `#China economy`, `#new energy vehicles`
+**「Context」** The growth follows the launch of Polymarket&\#x27;s domestic U.S. exchange in May, which operates separately from its international platform.
+
+**「Market Impact」** The substantial revenue growth signals expanding investor interest in prediction markets despite ongoing regulatory scrutiny from the CFTC and potential congressional oversight.
+
+**Tags**: `#Prediction Markets`, `#Fintech`, `#Revenue Growth`, `#Regulatory Issues`, `#Trading Volume`
 
 ---
 
 <a id="item-finance-news-2"></a>
-### [Fed Governor Waller Signals Likely December Rate Hike, Possible Half-Point Increase](https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html) ⭐️ 7.0/10
+### [Fed Governor Signals Likely December Rate Hike, Possible Half-Point Increase](https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html) ⭐️ 7.0/10
 
-Federal Reserve Governor Christopher Waller indicated he is leaning toward a December interest rate hike and suggested a possible half-percentage-point increase could be warranted to maintain the Fed&\#x27;s credibility, even if inflation data comes in softer than expected.
+Federal Reserve Governor Christopher Waller indicated a December rate hike is likely and suggested a possible 50 basis point increase, emphasizing the need to maintain policy credibility by following through on market expectations.
 
-rss · CNBC Finance · Nov 10, 09:00
+rss · CNBC Finance · Nov 10, 17:13
 
-**「Recent Fed Policy Context」** The Federal Reserve kept its key rate unchanged at about 3.9% in October after raising it by 25 basis points in September to a target range of 3.75%-4%, its first increase since 2023, as the central bank continues working toward its 2% inflation target.
+**「Background」** The Federal Reserve raised rates by a quarter-point in September and has been signaling additional hikes to combat inflation, with markets already pricing in further increases.
 
-**「Market and Borrower Impact」** Financial markets and borrowers face potential increased costs as Fed Governor Waller signals a likely December rate hike, possibly including an unusually large half-point increase, which would raise borrowing costs for households and businesses while potentially slowing economic activity.
+**「Impact」** Waller&\#x27;s comments could lead to higher borrowing costs for consumers and businesses, affecting mortgage rates, credit card interest, and other financial products tied to Fed policy.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html">Fed rate decision September 2026 : Rates rise to 3.75%-4%</a></li>
-<li><a href="https://www.latimes.com/business/story/2026-10-28/federal-reserve-keeps-rates-unchanged-despite-elevated-inflation-gives-little-signal-of-next-move">Federal Reserve keeps rates unchanged despite elevated inflation ...</a></li>
-<li><a href="https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html">Fed rate decision September 2026: Rates rise to 3.75%-4%</a></li>
-<li><a href="https://www.linkedin.com/top-content/economics/economic-risks-in-global-markets/impact-of-rising-fed-rates-on-global-financial-risk/">Impact of Rising Fed Rates on Global Financial Risk</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Federal Reserve policy`, `#Interest rates`, `#Monetary policy`, `#Inflation`, `#Market expectations`
+**Tags**: `#Federal Reserve`, `#Interest Rates`, `#Monetary Policy`, `#Inflation`, `#Central Banking`
 
 ---
 
 <a id="item-finance-news-3"></a>
-### [Anthropic Withdraws $69.3 Billion IPO Filing](https://www.reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/) ⭐️ 7.0/10
+### [China&\#x27;s New Energy Vehicle Exports Surge 138.8%](https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwpfnc2438186.shtml) ⭐️ 7.0/10
 
-Anthropic withdrew its IPO filing that aimed to raise up to $69.3 billion through selling approximately 867 million Class A shares at $70-80 per share, after discovering inaccuracies in the pricing information.
+China&\#x27;s new energy vehicle exports surged 138.8% to 3.887 million units in Q1-Q3 2026, offsetting a 12.8% decline in domestic sales to 7.758 million units.
 
-telegram · zaihuapd · Nov 10, 06:25
+telegram · zaihuapd · Nov 10, 02:56
 
-**「Background」** Anthropic, an AI company with approximately $5 billion in annual recurring revenue, had planned what would have been one of the largest IPOs in history before withdrawing its filing due to inaccuracies in the pricing information.
+**「Industry Context」** China&\#x27;s new energy vehicle industry has been experiencing a domestic slowdown while shifting focus toward exports, with battery-electric vehicles becoming the dominant technology in the sector.
 
-**「Impact」** The withdrawal affects major tech companies including Google, Microsoft, Nvidia, AMD, Broadcom, Micron, and TSMC, which had planned to participate in a $26 billion private placement at the offering price.
+**「Global Market Transformation」** China&\#x27;s new energy vehicle export surge is transforming the country&\#x27;s automotive industry from domestic market dependence to global leadership, creating new market opportunities particularly in the global south and Germany where Chinese EVs now qualify for subsidies.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=GcqQ1ebBqkc">A Cheeky Pint with Anthropic CEO Dario Amodei - YouTube</a></li>
+<li><a href="https://www.oxfordenergy.org/wpcms/wp-content/uploads/2026/03/Comment-China-new-energy-vehicle-NEV-update.pdf">China new energy vehicle (NEV) update: a slowdown and shift ...</a></li>
+<li><a href="https://sbxauto.com/chinas-new-energy-vehicles-have-jumped-to-number-one-globally-gaining-a-strong-following/">China &#x27; s new energy vehicles have jumped to number one globally ...</a></li>
+<li><a href="https://anboundkl.medium.com/china-achieves-leading-position-in-new-energy-vehicle-export-whats-the-next-step-a3f73b839397">China Achieves Leading Position in New Energy Vehicle Export ...</a></li>
+<li><a href="https://eu.36kr.com/en/p/3648495790902917">Great News: Chinese Electric Vehicles Eligible for Subsidies in...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#IPO`, `#Anthropic`, `#Technology`, `#Financing`, `#Market Impact`
+**Tags**: `#Automotive Industry`, `#Trade Data`, `#China Economy`, `#New Energy Vehicles`, `#Export Growth`
 
 ---
 
 <a id="item-finance-news-4"></a>
-### [California Voters Reject Billionaire Tax](https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40) ⭐️ 7.0/10
+### [Anthropic 拟募 693 亿美元的 IPO 文件被撤回](https://www.reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/) ⭐️ 7.0/10
 
-California voters rejected a 5% one-time tax on billionaires with net worth over $1 billion, facing record opposition spending of $425 million from tech billionaires including Google&\#x27;s co-founder Brin.
+Anthropic withdraws its massive $693 billion IPO filing due to inaccurate pricing information.
 
-telegram · zaihuapd · Nov 10, 07:12
+telegram · zaihuapd · Nov 10, 06:25
 
-**「Background」** Proposition 40 was a ballot initiative that would have imposed a one-time 5% tax on California&\#x27;s approximately 250 billionaires to fund healthcare, education, and food assistance programs, facing record opposition spending of $425 million from tech billionaires including Google co-founder Brin who donated $1.32 billion.
-
-**「Consequence」** The rejection maintains California&\#x27;s current tax structure and preserves wealth concentration among tech billionaires.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/2026_California_Proposition_40">2026 California Proposition 40 - Wikipedia</a></li>
-<li><a href="https://eml.berkeley.edu/~saez/galle-gamage-saez-shanskeCAbillionairetaxJuly26.pdf">Expert Report on Proposition 40, the California 2026 ...</a></li>
-<li><a href="https://ballotpedia.org/California_Proposition_40,_One-Time_Wealth_Tax_for_State-Funded_Healthcare,_Education,_and_Food_Assistance_Programs_Initiative_%282026%29">California Proposition 40, One-Time Wealth Tax for State ...</a></li>
-<li><a href="https://www.businessinsider.com/california-wealth-tax-sparks-debate-among-billionaires-voters-2026-6">California Wealth Tax Sparks Debate Among Billionaires ...</a></li>
-<li><a href="https://www.npr.org/2026/08/20/nx-s1-5935597/california-billionaires-wealth-tax-sergey-brin">Proposed California wealth tax fuels debate over billionaire ...</a></li>
-<li><a href="https://blogs.lse.ac.uk/usappblog/2026/10/23/california-billionaire-tax-proposition-40/">California’s billionaire tax ballot initiative could be a ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#wealth-tax`, `#california-politics`, `#policy-decision`, `#billionaires`, `#campaign-spending`
+**Tags**: `#IPO`, `#AI`, `#Technology`, `#Venture Capital`, `#Market News`
 
 ---
 
 <a id="item-finance-news-5"></a>
-### [TSMC Reports 59.7% Year-on-Year Revenue Growth for October 2026](https://pr.tsmc.com/chinese/news/3349) ⭐️ 7.0/10
+### [加州 5% 亿万富翁税公投未获通过](https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40) ⭐️ 7.0/10
 
-TSMC reported October 2026 revenue of 586.89 billion New Taiwan dollars, a 59.7% increase from the same period last year and a 14.7% increase from the previous month.
+California voters rejected a 5% billionaire tax proposition in a high-stakes referendum opposed by tech billionaires who spent nearly $425 million.
 
-telegram · zaihuapd · Nov 10, 08:07
+telegram · zaihuapd · Nov 10, 07:12
 
-**「Background」** TSMC, the world&\#x27;s largest semiconductor manufacturer, has seen substantial growth driven by increasing demand for advanced chips used in artificial intelligence applications.
+**Tags**: `#tax policy`, `#wealth inequality`, `#political campaign finance`, `#state policy`, `#public services`
+
+---
+
+<a id="item-finance-news-6"></a>
+### [Alibaba&\#x27;s Pingtouge Plans Hong Kong IPO for 2027](https://weibo.com/1642634100/RqIoQv9m9) ⭐️ 7.0/10
+
+Alibaba&\#x27;s semiconductor subsidiary Pingtouge plans to raise $2-3 billion through a Hong Kong IPO in 2027, which would be one of the largest semiconductor IPOs in Hong Kong in recent years.
+
+telegram · zaihuapd · Nov 10, 08:31
+
+**「Background」** Pingtouge is Alibaba&\#x27;s semiconductor subsidiary established in 2018 by integrating acquired Zhongtian Microsystem and DAMO Academy chip teams, developing processors, server chips, and AI chips.
+
+**「Market Impact」** Pingtouge&\#x27;s planned IPO would further solidify Hong Kong&\#x27;s position as a leading global hub for technology listings, particularly in the semiconductor and AI sectors.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.fool.com/investing/2026/10/23/taiwan-semiconductor-posted-record-profit-and-the/">Taiwan Semiconductor ( TSMC ) Posted Record... | The Motley Fool</a></li>
+<li><a href="https://pitchbook.com/profiles/company/484479-46">Pingtouge Semiconductor 2026 Company Profile: Valuation ...</a></li>
+<li><a href="https://www.rankred.com/chinese-semiconductor-companies/">16 Leading Chinese Semiconductor Companies [As of 2026]</a></li>
+<li><a href="https://www.linkedin.com/posts/broadlightmedia_birentech-chinaai-semiconductors-activity-7413561313983025152-yjVg">Biren Technology&#x27;s Hong Kong IPO Surges 82.1% in... | LinkedIn</a></li>
+<li><a href="https://www.scmp.com/business/banking-finance/article/3317475/five-companies-mark-ipo-trading-debut-hong-kong-marking-hkexs-busiest-day-yet-2025">Chip designer Fortior leads dazzling gains in busiest day for Hong ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#semiconductors`, `#earnings`, `#Asia markets`, `#tech industry`, `#TSMC`
+**Tags**: `#IPO`, `#Semiconductor`, `#Alibaba`, `#Hong Kong Stock Exchange`, `#Technology`
+
+---
+
+<a id="item-finance-news-7"></a>
+### [Anthropic Restricts AI Services to 185 Countries, Excluding China](https://www.anthropic.com/legal/supported-regions) ⭐️ 7.0/10
+
+Anthropic is implementing a whitelist policy that restricts its AI services to only 185 countries and regions, excluding mainland China, Hong Kong, and Macau, effective November 12, 2026.
+
+telegram · zaihuapd · Nov 10, 13:44
+
+**「Background」** Anthropic, an AI company founded in 2021 by former OpenAI researchers that develops Claude language models, is implementing a whitelist policy restricting access to its services in certain regions.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
+<li><a href="https://www.britannica.com/money/Anthropic-PBC">Anthropic | History, Controversies, &amp; Claude AI | Britannica ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI policy`, `#Regional restrictions`, `#Anthropic`, `#China tech`, `#International business`
 
 ---
